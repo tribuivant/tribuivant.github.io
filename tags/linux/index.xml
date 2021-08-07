@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux on Viết log bằng Git</title><link>https://tribuivant.github.io/tags/linux/</link><description>Recent content in Linux on Viết log bằng Git</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 02 Aug 2021 20:40:48 +0700</lastBuildDate><atom:link href="https://tribuivant.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Linux System Admin</title><link>https://tribuivant.github.io/p/linux-system-admin/</link><pubDate>Mon, 02 Aug 2021 20:40:48 +0700</pubDate><guid>https://tribuivant.github.io/p/linux-system-admin/</guid><description>Kiểm tra thông tin phần cứng Kiểm tra RAM
+free -h Kiểm tra CPU
+lscpu Kiểm tra thông tin ổ đĩa
+lsblk df -hT Kiểm tra thông tin phần mềm Kiểm tra các dịch vụ đang chạy
+systemctl Kiểm tra kết nối Dùng lệnh curl
+curl curl -Iv https://google.com Dùng lệnh wget
+wget Dùng lệnh netstat
+netstat -tlpn Dùng lệnh telnet
+telnet 127.0.0.0 80 Dùng lệnh ping
+ping google.com ping 8.</description></item></channel></rss>

@@ -1,0 +1,227 @@
+<!doctype html><html lang=en-us>
+<head><meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Tạo SSH key mkdir sshforgithub ssh-keygen -t rsa -f id_rsa ls -la sshforgithub Thêm SSH key vào trong Github Truy cập https://github.com/settings/keys
+ 
+Thêm public key vào trong Github  
+Nhập mật khẩu của Github để xác thực.  
+Thiết lập SSH trên máy tính Di chuyển key vào trong thư mục SSH, cụ thể là .ssh
+mv id_rsa ~/.ssh Thêm dòng sau vào ~/.ssh/config
+# My Github Host github."><title>Github SSH Key</title>
+<link rel=canonical href=https://tribuivant.github.io/p/github-ssh-key/>
+<link rel=stylesheet href=/scss/style.min.css><meta property="og:title" content="Github SSH Key">
+<meta property="og:description" content="Tạo SSH key mkdir sshforgithub ssh-keygen -t rsa -f id_rsa ls -la sshforgithub Thêm SSH key vào trong Github Truy cập https://github.com/settings/keys
+ 
+Thêm public key vào trong Github  
+Nhập mật khẩu của Github để xác thực.  
+Thiết lập SSH trên máy tính Di chuyển key vào trong thư mục SSH, cụ thể là .ssh
+mv id_rsa ~/.ssh Thêm dòng sau vào ~/.ssh/config
+# My Github Host github.">
+<meta property="og:url" content="https://tribuivant.github.io/p/github-ssh-key/">
+<meta property="og:site_name" content="Viết log bằng Git">
+<meta property="og:type" content="article"><meta property="article:section" content="Post"><meta property="article:tag" content="Github"><meta property="article:tag" content="SSH"><meta property="article:published_time" content="2021-08-01T21:49:19+07:00"><meta property="article:modified_time" content="2021-08-01T21:49:19+07:00"><meta property="og:image" content="https://tribuivant.github.io/p/github-ssh-key/2021-08-02_064106.png">
+<meta name=twitter:title content="Github SSH Key">
+<meta name=twitter:description content="Tạo SSH key mkdir sshforgithub ssh-keygen -t rsa -f id_rsa ls -la sshforgithub Thêm SSH key vào trong Github Truy cập https://github.com/settings/keys
+ 
+Thêm public key vào trong Github  
+Nhập mật khẩu của Github để xác thực.  
+Thiết lập SSH trên máy tính Di chuyển key vào trong thư mục SSH, cụ thể là .ssh
+mv id_rsa ~/.ssh Thêm dòng sau vào ~/.ssh/config
+# My Github Host github."><meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://tribuivant.github.io/p/github-ssh-key/2021-08-02_064106.png">
+</head>
+<body class="article-page has-toc">
+<script>(function(){const a='StackColorScheme';localStorage.getItem(a)||localStorage.setItem(a,"auto")})()</script><script>(function(){const b='StackColorScheme',a=localStorage.getItem(b),c=window.matchMedia('(prefers-color-scheme: dark)').matches===!0;a=='dark'||a==='auto'&&c?document.documentElement.dataset.scheme='dark':document.documentElement.dataset.scheme='light'})()</script>
+<div class="container main-container flex
+extended">
+<div id=article-toolbar>
+<a href=https://tribuivant.github.io class=back-home><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><polyline points="15 6 9 12 15 18"/></svg>
+<span>Back</span>
+</a>
+</div>
+<main class="main full-width">
+<article class="has-image main-article">
+<header class=article-header>
+<div class=article-image>
+<a href=/p/github-ssh-key/>
+<img src=/p/github-ssh-key/2021-08-02_064106_hudefe5ec9c7fd2ccc663df10df76d5bc1_41343_800x0_resize_box_3.png srcset="/p/github-ssh-key/2021-08-02_064106_hudefe5ec9c7fd2ccc663df10df76d5bc1_41343_800x0_resize_box_3.png 800w, /p/github-ssh-key/2021-08-02_064106_hudefe5ec9c7fd2ccc663df10df76d5bc1_41343_1600x0_resize_box_3.png 1600w" width=800 height=385 loading=lazy alt="Featured image of post Github SSH Key">
+</a>
+</div>
+<div class=article-details>
+<header class=article-category>
+<a href=/categories/tutorials/>
+Tutorials
+</a>
+</header>
+<h2 class=article-title>
+<a href=/p/github-ssh-key/>Github SSH Key</a>
+</h2>
+<footer class=article-time>
+<div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M11.795 21H5a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v4"/><circle cx="18" cy="18" r="4"/><path d="M15 3v4"/><path d="M7 3v4"/><path d="M3 11h16"/><path d="M18 16.496V18l1 1"/></svg>
+<time class=article-time--published>Aug 01, 2021</time>
+</div>
+<div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
+<time class=article-time--reading>
+1 min read
+</time>
+</div>
+</footer>
+</div>
+</header>
+<section class=article-content>
+<h2 id=tạo-ssh-key>Tạo SSH key</h2>
+<pre><code>mkdir sshforgithub
+ssh-keygen -t rsa -f id_rsa
+ls -la sshforgithub
+</code></pre><h2 id=thêm-ssh-key-vào-trong-github>Thêm SSH key vào trong Github</h2>
+<p>Truy cập <a class=link href=https://github.com/settings/keys target=_blank rel=noopener>https://github.com/settings/keys</a></p>
+<p><figure style=flex-grow:207;flex-basis:498px>
+<a href=/p/github-ssh-key/2021-08-02_064106.png data-size=1366x657><img src=/p/github-ssh-key/2021-08-02_064106.png srcset="/p/github-ssh-key/2021-08-02_064106_hudefe5ec9c7fd2ccc663df10df76d5bc1_41343_480x0_resize_box_3.png 480w, /p/github-ssh-key/2021-08-02_064106_hudefe5ec9c7fd2ccc663df10df76d5bc1_41343_1024x0_resize_box_3.png 1024w" width=1366 height=657 loading=lazy>
+</a>
+</figure></p>
+<p>Thêm public key vào trong Github
+<figure style=flex-grow:207;flex-basis:498px>
+<a href=/p/github-ssh-key/2021-08-02_064132.png data-size=1366x657><img src=/p/github-ssh-key/2021-08-02_064132.png srcset="/p/github-ssh-key/2021-08-02_064132_hu51f1a2e00a118b77e45d7a64e8ec95d6_46642_480x0_resize_box_3.png 480w, /p/github-ssh-key/2021-08-02_064132_hu51f1a2e00a118b77e45d7a64e8ec95d6_46642_1024x0_resize_box_3.png 1024w" width=1366 height=657 loading=lazy>
+</a>
+</figure></p>
+<p>Nhập mật khẩu của Github để xác thực.
+<figure style=flex-grow:207;flex-basis:498px>
+<a href=/p/github-ssh-key/2021-08-02_064155.png data-size=1366x657><img src=/p/github-ssh-key/2021-08-02_064155.png srcset="/p/github-ssh-key/2021-08-02_064155_huf99ba6effedda40c803586a27c4a2875_13478_480x0_resize_box_3.png 480w, /p/github-ssh-key/2021-08-02_064155_huf99ba6effedda40c803586a27c4a2875_13478_1024x0_resize_box_3.png 1024w" width=1366 height=657 loading=lazy>
+</a>
+</figure></p>
+<h2 id=thiết-lập-ssh-trên-máy-tính>Thiết lập SSH trên máy tính</h2>
+<p>Di chuyển key vào trong thư mục SSH, cụ thể là <code>.ssh</code></p>
+<pre><code>mv id_rsa ~/.ssh
+</code></pre><p>Thêm dòng sau vào ~/.ssh/config</p>
+<pre><code># My Github
+Host github.com
+        User git
+        Hostname github.com
+        Port 22
+        PreferredAuthentications publickey
+        IdentityFile    ~/.ssh/id_rsa
+</code></pre><p>Thêm repo remote vào trong project</p>
+<pre><code>git remote -v
+git remote add github git@github.com:tribuivant/tribuivant.github.io.git
+git push github master
+</code></pre>
+</section>
+<footer class=article-footer>
+<section class=article-tags>
+<a href=/tags/github/>Github</a>
+<a href=/tags/ssh/>SSH</a>
+</section>
+</footer>
+</article>
+<aside class=related-contents--wrapper>
+<h2 class=section-title>Related contents</h2>
+<div class=related-contents>
+<div class="flex article-list--tile">
+<article class=has-image>
+<a href=/p/docker-python-django/>
+<div class=article-image>
+<img src=/p/docker-python-django/docker-django.78bd8baf00339e26c3aac6470b2bbdd8_hu34f5afbeb8dfef8418783929efc1b28d_60404_250x150_fill_q75_box_smart1.jpg width=250 height=150 loading=lazy data-key data-hash="md5-eL2LrwAznibDqsZHCyu92A==">
+</div>
+<div class=article-details>
+<h2 class=article-title>Docker Python Django</h2>
+</div>
+</a>
+</article>
+<article class=has-image>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/>
+<div class=article-image>
+<img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/lamp_stack.06e18a9a520fe44c3a81174764d2ff03_hu05ca14ce72e2edb176b411a05397bf9a_49400_250x150_fill_box_smart1_3.png width=250 height=150 loading=lazy data-key data-hash="md5-BuGKmlIP5Ew6gRdHZNL/Aw==">
+</div>
+<div class=article-details>
+<h2 class=article-title>Triển khai WordPress trên CentOS 7.6</h2>
+</div>
+</a>
+</article>
+<article class=has-image>
+<a href=/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/>
+<div class=article-image>
+<img src=/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/hugo-netlify.a33652cbd36b54154a0bdec7ae3adb58_hu7160c41723ceb4a8d643e2396069a7e0_27756_250x150_fill_box_smart1_3.png width=250 height=150 loading=lazy data-key data-hash="md5-ozZSy9NrVBVKC97HrjrbWA==">
+</div>
+<div class=article-details>
+<h2 class=article-title>Cài đặt Hugo trên Netlify</h2>
+</div>
+</a>
+</article>
+</div>
+</div>
+</aside>
+<div class=disqus-container>
+<div id=disqus_thread></div>
+<script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='//hugo-theme-stack.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script>
+<noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
+<a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a>
+</div>
+<style>.disqus-container{background-color:var(--card-background);border-radius:var(--card-border-radius);box-shadow:var(--shadow-l1);padding:var(--card-padding)}</style>
+<script>window.addEventListener('onColorSchemeChange',a=>{DISQUS&&DISQUS.reset({reload:!0})})</script>
+<footer class=site-footer>
+<section class=copyright>
+&copy;
+2021 Viết log bằng Git
+</section>
+<section class=powerby>
+Built with <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a> <br>
+Theme <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=noopener data-version=2.5.0>Stack</a></b> designed by <a href=https://jimmycai.com target=_blank rel=noopener>Jimmy</a>
+</section>
+</footer>
+<div class=pswp tabindex=-1 role=dialog aria-hidden=true>
+<div class=pswp__bg></div>
+<div class=pswp__scroll-wrap>
+<div class=pswp__container>
+<div class=pswp__item></div>
+<div class=pswp__item></div>
+<div class=pswp__item></div>
+</div>
+<div class="pswp__ui pswp__ui--hidden">
+<div class=pswp__top-bar>
+<div class=pswp__counter></div>
+<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+<button class="pswp__button pswp__button--share" title=Share></button>
+<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+<div class=pswp__preloader>
+<div class=pswp__preloader__icn>
+<div class=pswp__preloader__cut>
+<div class=pswp__preloader__donut></div>
+</div>
+</div>
+</div>
+</div>
+<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+<div class=pswp__share-tooltip></div>
+</div>
+<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+</button>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+</button>
+<div class=pswp__caption>
+<div class=pswp__caption__center></div>
+</div>
+</div>
+</div>
+</div><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo=" crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU=" crossorigin=anonymous defer></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css integrity="sha256-c0uckgykQ9v5k+IqViZOZKc47Jn7KQil4/MP3ySA3F8=" crossorigin=anonymous><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE=" crossorigin=anonymous>
+</main>
+<aside class="sidebar right-sidebar sticky">
+<section class="widget archives">
+<div class=widget-icon><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><line x1="5" y1="9" x2="19" y2="9"/><line x1="5" y1="15" x2="19" y2="15"/><line x1="11" y1="4" x2="7" y2="20"/><line x1="17" y1="4" x2="13" y2="20"/></svg>
+</div>
+<h2 class="widget-title section-title">Table of contents</h2>
+<div class=widget--toc>
+<nav id=TableOfContents>
+<ol>
+<li><a href=#tạo-ssh-key>Tạo SSH key</a></li>
+<li><a href=#thêm-ssh-key-vào-trong-github>Thêm SSH key vào trong Github</a></li>
+<li><a href=#thiết-lập-ssh-trên-máy-tính>Thiết lập SSH trên máy tính</a></li>
+</ol>
+</nav>
+</div>
+</section>
+</aside>
+</div>
+<script src=https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin=anonymous defer></script><script type=text/javascript src=/ts/main.js defer></script>
+<script>(function(){const a=document.createElement('link');a.href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",a.type="text/css",a.rel="stylesheet",document.head.appendChild(a)})()</script>
+</body>
+</html>

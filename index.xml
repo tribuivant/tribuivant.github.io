@@ -1,0 +1,1175 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Viết log bằng Git</title><link>https://tribuivant.github.io/</link><description>Recent content on Viết log bằng Git</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 04 Aug 2021 14:24:59 +0700</lastBuildDate><atom:link href="https://tribuivant.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Migration to Cloud</title><link>https://tribuivant.github.io/p/migration-to-cloud/</link><pubDate>Wed, 04 Aug 2021 14:24:59 +0700</pubDate><guid>https://tribuivant.github.io/p/migration-to-cloud/</guid><description>&lt;h2 id="google-cloud-platform">Google Cloud Platform&lt;/h2>
+&lt;p>&lt;a class="link" href="https://cloud.google.com/architecture/migration-to-gcp-choosing-your-path" target="_blank" rel="noopener"
+>Choosing your path&lt;/a>&lt;/p>
+&lt;p>Read the &lt;a class="link" href="https://cloud.google.com/architecture/migration-to-gcp-getting-started" target="_blank" rel="noopener"
+>documents&lt;/a> in the first.&lt;/p>
+&lt;h2 id="amazon-web-service">Amazon Web Service&lt;/h2>
+&lt;h2 id="microsoft-azure">Microsoft Azure&lt;/h2>
+&lt;h2 id="alibaba-cloud">Alibaba Cloud&lt;/h2></description></item><item><title>New Update</title><link>https://tribuivant.github.io/p/new-update/</link><pubDate>Wed, 04 Aug 2021 13:51:46 +0700</pubDate><guid>https://tribuivant.github.io/p/new-update/</guid><description>&lt;h2 id="system-administrator">System Administrator&lt;/h2>
+&lt;h3 id="operating-system">Operating System&lt;/h3>
+&lt;ul>
+&lt;li>Windows
+&lt;ul>
+&lt;li>Awesome Windows&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Unix/Linux
+&lt;ul>
+&lt;li>CentOS
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://docs.centos.org" target="_blank" rel="noopener"
+>Documents&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Ubuntu
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://help.ubuntu.com" target="_blank" rel="noopener"
+>Documents&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://ubuntu.com/blog" target="_blank" rel="noopener"
+>Blog&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>RHEL
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.redhat.com/en/blog" target="_blank" rel="noopener"
+>Blog&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>MacOS
+&lt;ul>
+&lt;li>Awesome MacOS&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="cloud-computing">Cloud computing&lt;/h2>
+&lt;h3 id="cloud-providers">Cloud providers&lt;/h3>
+&lt;p>Big providers&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://cloud.google.com" target="_blank" rel="noopener"
+>Google Cloud Platform&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://aws.amazon.com" target="_blank" rel="noopener"
+>Amazon Web Service&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://azure.microsoft.com/en-us/" target="_blank" rel="noopener"
+>Microsoft Azure&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://us.alibabacloud.com/en" target="_blank" rel="noopener"
+>Alibaba Cloud&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Middle providers&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.vultr.com" target="_blank" rel="noopener"
+>Vultr&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.digitalocean.com" target="_blank" rel="noopener"
+>Digital Ocean&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="on-premises">On-premises&lt;/h3>
+&lt;p>The key: &lt;code>Virtualization&lt;/code>&lt;/p>
+&lt;ul>
+&lt;li>VMware&lt;/li>
+&lt;li>Virtual Box&lt;/li>
+&lt;/ul>
+&lt;h2 id="reference">Reference&lt;/h2>
+&lt;p>&amp;hellip;updating&amp;hellip;&lt;/p></description></item><item><title>Learning English</title><link>https://tribuivant.github.io/p/learning-english/</link><pubDate>Wed, 04 Aug 2021 09:09:33 +0700</pubDate><guid>https://tribuivant.github.io/p/learning-english/</guid><description>&lt;img src="https://tribuivant.github.io/p/learning-english/english.jpg" alt="Featured image of post Learning English" />&lt;h2 id="learning-path">Learning Path&lt;/h2>
+&lt;h3 id="planing">Planing&lt;/h3>
+&lt;ul>
+&lt;li>Vocabulary&lt;/li>
+&lt;li>Sentences / Paragraphs&lt;/li>
+&lt;li>Links / Connect sentences&lt;/li>
+&lt;/ul>
+&lt;h3 id="deploy">Deploy&lt;/h3>
+&lt;ul>
+&lt;li>Nouns / Pronouns&lt;/li>
+&lt;li>Articles&lt;/li>
+&lt;li>Adjectives / Adverbs&lt;/li>
+&lt;li>Preposition / Conjunctions&lt;/li>
+&lt;li>Verbs
+&lt;ul>
+&lt;li>Verb tenses&lt;/li>
+&lt;li>Modal verbs&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Reported speech&lt;/li>
+&lt;li>Relative clause&lt;/li>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;h3 id="resources">Resources&lt;/h3>
+&lt;p>Dictionaries&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://dictionary.cambridge.org" target="_blank" rel="noopener"
+>Cambridge Dictionary&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.oxfordlearnersdictionaries.com" target="_blank" rel="noopener"
+>Oxford Dictionary&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Translate&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://translate.google.com" target="_blank" rel="noopener"
+>Google Translate&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="english-basically">English basically&lt;/h2>
+&lt;h3 id="attention">Attention&lt;/h3>
+&lt;p>&lt;strong>Listening&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Everyday&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Speaking&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Practicing reflexes with English (language)&lt;/li>
+&lt;li>Don&amp;rsquo;t be shy&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Reading&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Documents&lt;/li>
+&lt;li>Technical documents.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Writing&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Writing report.&lt;/li>
+&lt;li>Writing your blog.&lt;/li>
+&lt;/ul>
+&lt;h2 id="example">Example&lt;/h2>
+&lt;h3 id="presentation">Presentation&lt;/h3>
+&lt;p>&lt;strong>1. Introduction&lt;/strong>&lt;/p>
+&lt;p>&lt;em>Your self&lt;/em>&lt;/p>
+&lt;pre>&lt;code>Hi, everyone. I'm Ethan. Good to see you all.
+&lt;/code>&lt;/pre>&lt;p>&lt;em>Topic&lt;/em>&lt;/p>
+&lt;pre>&lt;code>I'm going to talk about ...
+&lt;/code>&lt;/pre>&lt;p>&lt;em>Agenda&lt;/em>&lt;/p>
+&lt;pre>&lt;code>My talk will be in three parts.
+In the first part, ...
+Then in the second part,...
+Finally, I'll go on to talk about ...
+&lt;/code>&lt;/pre>&lt;p>&lt;em>Questions&lt;/em>&lt;/p>
+&lt;pre>&lt;code>Please interrupt if you have any questions.
+If there's anything you're not clear about, feel free to stop me and ask any questions.
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>2. Main body&lt;/strong>&lt;/p>
+&lt;p>&lt;em>Links&lt;/em>&lt;/p>
+&lt;pre>&lt;code>Now let's move to / turn on the first part of my talk which is about ...
+So, first ...
+To begin with ...
+That's all I want to say.
+Okay, I've explained how ...
+So now we come to next point, which is ...
+Now I want to describe ...
+Let's turn to the next issue
+&lt;/code>&lt;/pre>&lt;p>&lt;em>Focus&lt;/em>&lt;/p>
+&lt;pre>&lt;code>Because time is tight, you may want to consider.
+Here's what's the important about this for you.
+(Đây là phần quan trọng nhất dành cho bạn)
+Why you need to know about ...
+(Tại sao bạn nên biết về...)
+&lt;/code>&lt;/pre>&lt;p>&lt;em>Requests&lt;/em>&lt;/p>
+&lt;pre>&lt;code>Take a look at this...
+(Hãy xem cái này ...)
+If you look at this, you will see...
+(Nếu bạn nhìn vào đó, bạn sẽ thấy...)
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>3. End page&lt;/strong>&lt;/p>
+&lt;p>&lt;em>The end&lt;/em>&lt;/p>
+&lt;pre>&lt;code>Okay, that ends the third part of my talk.
+That's all I want to say about.
+To sum up/conclude.
+(Để tóm tắt/kết luận.)
+I'd like to end with a summary of the main points.
+(Tôi muốn kết thúc với một bản tóm tắt các điểm chính.)
+&lt;/code>&lt;/pre>&lt;p>&lt;em>Thanks&lt;/em>&lt;/p>
+&lt;pre>&lt;code>I'd like to thank you for taking time out to listen to my presentation.
+Thank you for your listening/your attention.
+Many thanks for coming.
+(Cảm ơn rất nhiều vì đã đến.)
+&lt;/code>&lt;/pre>&lt;p>&lt;em>Answers and Questions&lt;/em>&lt;/p>
+&lt;pre>&lt;code>Now we have half an hour for questions and discussion.
+So, now I'd be very interested to hear your comments.
+And now if there are any questions, I would be pleased to answer them.
+(Và nếu bây giờ có câu hỏi nào, tôi rất sẵn lòng để giải đáp chúng)
+&lt;/code>&lt;/pre>&lt;h3 id="example-sentences">Example sentences&lt;/h3>
+&lt;p>Technical&lt;/p>
+&lt;pre>&lt;code>
+--- Tôi cần thêm thời gian để...
+I need more time to fix the issue.
+I need more time to do it.
+--- Tôi sẽ cố gắng hết sức mình.
+I will try all my best.
+I'll do my best
+I'm going to fight it out.
+&lt;/code>&lt;/pre>&lt;h3 id="daily">Daily&lt;/h3>
+&lt;p>Topic: &lt;strong>Healthy&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>How are you?
+How's it going?
+---
+I'm good. About you?
+I'm not good.
+So far so good.
+&lt;/code>&lt;/pre>&lt;p>Topic: &lt;strong>Funny&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>
+&lt;/code>&lt;/pre></description></item><item><title>Serverless Cloud Computing</title><link>https://tribuivant.github.io/p/serverless-cloud-computing/</link><pubDate>Tue, 03 Aug 2021 16:46:32 +0700</pubDate><guid>https://tribuivant.github.io/p/serverless-cloud-computing/</guid><description>&lt;img src="https://tribuivant.github.io/p/serverless-cloud-computing/serverless.jpg" alt="Featured image of post Serverless Cloud Computing" />&lt;h2 id="cài-đặt-môi-trường">Cài đặt môi trường&lt;/h2>
+&lt;p>&lt;strong>Dưới máy tính (Local)&lt;/strong>&lt;/p>
+&lt;h3 id="cài-đặt-git">Cài đặt Git&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">yum install git
+git clone &amp;lt;project&amp;gt;
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="cài-đặt-funcarft">Cài đặt Funcarft&lt;/h3>
+&lt;p>Tải Funcraft mới nhất &lt;a class="link" href="https://github.com/alibaba/funcraft/releases" target="_blank" rel="noopener"
+>ở đây&lt;/a>&lt;/p>
+&lt;pre>&lt;code>curl -o fun-linux.zip http://funcraft-release.oss-accelerate.aliyuncs.com/fun/fun-v3.6.20-linux.zip
+sudo yum install unzip
+sudo unzip fun-linux.zip
+sudo mv fun-v3.6.20-linux /usr/local/bin/fun
+fun --version
+&lt;/code>&lt;/pre>&lt;p>Cấu hình Funcraft&lt;/p>
+&lt;pre>&lt;code>fun config
+&lt;/code>&lt;/pre>&lt;h3 id="cài-đặt-docker">Cài đặt Docker&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">curl -sSL https://get.docker.com &lt;span class="p">|&lt;/span> sudo -E sh
+sudo usermod -aG docker &lt;span class="k">$(&lt;/span>whoami&lt;span class="k">)&lt;/span>
+&lt;span class="c1"># if you have not permission&lt;/span>
+sudo su -
+touch /etc/sudoers.d/client
+user_name &lt;span class="nv">ALL&lt;/span>&lt;span class="o">=(&lt;/span>ALL&lt;span class="o">)&lt;/span> ALL
+&lt;span class="c1"># docker command&lt;/span>
+sudo systemctl &lt;span class="nb">enable&lt;/span> --now docker
+sudo systemctl start docker
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="cấu-hình-cho-project">Cấu hình cho project&lt;/h2>
+&lt;pre>&lt;code>fun install
+cp config.py.example config.py
+fun local invoke
+fun deploy
+&lt;/code>&lt;/pre>&lt;h2 id="tham-khảo">Tham khảo&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.alibabacloud.com/help/doc-detail/161136.htm" target="_blank" rel="noopener"
+>How to install Funcraft&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.alibabacloud.com/help/doc-detail/146702.htm" target="_blank" rel="noopener"
+>Configure Funcraft&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.alibabacloud.com/help/doc-detail/155100.htm" target="_blank" rel="noopener"
+>How to use Funcraft to create a function&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Linux System Admin</title><link>https://tribuivant.github.io/p/linux-system-admin/</link><pubDate>Mon, 02 Aug 2021 20:40:48 +0700</pubDate><guid>https://tribuivant.github.io/p/linux-system-admin/</guid><description>&lt;img src="https://tribuivant.github.io/p/linux-system-admin/linux.jpg" alt="Featured image of post Linux System Admin" />&lt;h2 id="kiểm-tra-thông-tin-phần-cứng">Kiểm tra thông tin phần cứng&lt;/h2>
+&lt;p>Kiểm tra &lt;code>RAM&lt;/code>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">free -h
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Kiểm tra &lt;code>CPU&lt;/code>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">lscpu
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Kiểm tra thông tin ổ đĩa&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">lsblk
+df -hT
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="kiểm-tra-thông-tin-phần-mềm">Kiểm tra thông tin phần mềm&lt;/h2>
+&lt;p>Kiểm tra các dịch vụ đang chạy&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">systemctl
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="kiểm-tra-kết-nối">Kiểm tra kết nối&lt;/h2>
+&lt;p>Dùng lệnh &lt;code>curl&lt;/code>&lt;/p>
+&lt;pre>&lt;code>curl
+curl -Iv https://google.com
+&lt;/code>&lt;/pre>&lt;p>Dùng lệnh &lt;code>wget&lt;/code>&lt;/p>
+&lt;pre>&lt;code>wget
+&lt;/code>&lt;/pre>&lt;p>Dùng lệnh &lt;code>netstat&lt;/code>&lt;/p>
+&lt;pre>&lt;code>netstat -tlpn
+&lt;/code>&lt;/pre>&lt;p>Dùng lệnh &lt;code>telnet&lt;/code>&lt;/p>
+&lt;pre>&lt;code>telnet 127.0.0.0 80
+&lt;/code>&lt;/pre>&lt;p>Dùng lệnh &lt;code>ping&lt;/code>&lt;/p>
+&lt;pre>&lt;code>ping google.com
+ping 8.8.8.8
+&lt;/code>&lt;/pre>&lt;h2 id="công-cụ-cần-thiết">Công cụ cần thiết&lt;/h2>
+&lt;p>Dùng tmux&lt;/p>
+&lt;pre>&lt;code>tmux new -s section-name
+&lt;/code>&lt;/pre></description></item><item><title>Docker Python Django</title><link>https://tribuivant.github.io/p/docker-python-django/</link><pubDate>Mon, 02 Aug 2021 10:42:35 +0700</pubDate><guid>https://tribuivant.github.io/p/docker-python-django/</guid><description>&lt;img src="https://tribuivant.github.io/p/docker-python-django/docker-django.jpg" alt="Featured image of post Docker Python Django" />&lt;h2 id="cấu-hình-ubuntu-server">Cấu hình Ubuntu Server&lt;/h2>
+&lt;pre>&lt;code>ssh e.bui@13.76.175.68
+sudo apt-get update
+&lt;/code>&lt;/pre>&lt;h2 id="cài-đặt-môi-trường">Cài đặt môi trường&lt;/h2>
+&lt;h3 id="cài-đặt-docker">Cài đặt Docker&lt;/h3>
+&lt;p>Cài đặt Docker trên Ubuntu&lt;/p>
+&lt;pre>&lt;code>curl -sSL https://get.docker.com | sudo -E sh
+sudo systemctl enable --now docker.service docker.socket
+sudo usermod -aG docker ebui
+sudo reboot
+&lt;/code>&lt;/pre>&lt;p>Kiểm tra Docker&lt;/p>
+&lt;pre>&lt;code>docker version
+&lt;/code>&lt;/pre>&lt;h3 id="cài-đặt-docker-compose">Cài đặt Docker Compose&lt;/h3>
+&lt;pre>&lt;code>sudo curl -L &amp;quot;https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)&amp;quot; -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+&lt;/code>&lt;/pre>&lt;p>Kiểm tra docker-compose&lt;/p>
+&lt;pre>&lt;code>docker-compose version
+&lt;/code>&lt;/pre>&lt;h3 id="thiếp-lập-components-cho-project">Thiếp lập components cho project&lt;/h3>
+&lt;p>Tạo thư mục chứa project&lt;/p>
+&lt;pre>&lt;code>mkdir dopydj &amp;amp;&amp;amp; cd dopydj
+&lt;/code>&lt;/pre>&lt;p>Tạo &lt;code>Dockerfile&lt;/code>&lt;/p>
+&lt;pre>&lt;code># syntax=docker/dockerfile:1
+FROM python:3
+ENV PYTHONUNBUFFERED=1
+WORKDIR /code
+COPY requirements.txt /code/
+RUN pip install -r requirements.txt
+COPY . /code/
+&lt;/code>&lt;/pre>&lt;p>Tạo file &lt;code>requirements.txt&lt;/code>&lt;/p>
+&lt;pre>&lt;code>Django&amp;gt;=3.0,&amp;lt;4.0
+psycopg2-binary&amp;gt;=2.8
+&lt;/code>&lt;/pre>&lt;p>Tạo file &lt;code>docker-compose.yml&lt;/code>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="nt">version&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s2">&amp;#34;3.9&amp;#34;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w">&lt;/span>&lt;span class="nt">services&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">db&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">image&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">postgres&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">volumes&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="l">./data/db:/var/lib/postgresql/data&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">environment&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="l">POSTGRES_DB=postgres&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="l">POSTGRES_USER=postgres&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="l">POSTGRES_PASSWORD=postgres&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">web&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">build&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">.&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">command&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">python manage.py runserver 0.0.0.0:8000&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">volumes&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="l">./code:/code&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">ports&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="s2">&amp;#34;8000:8000&amp;#34;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">depends_on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="l">db&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Tạo Django project&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">docker-compose run web django-admin startproject mysite .
+sudo chown -R &lt;span class="nv">$USER&lt;/span>:&lt;span class="nv">$USER&lt;/span> .
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Kết nối Database&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="c1"># settings.py&lt;/span>
+&lt;span class="n">DATABASES&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;span class="s1">&amp;#39;default&amp;#39;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;span class="s1">&amp;#39;ENGINE&amp;#39;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s1">&amp;#39;django.db.backends.postgresql&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="s1">&amp;#39;NAME&amp;#39;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s1">&amp;#39;postgres&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="s1">&amp;#39;USER&amp;#39;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s1">&amp;#39;postgres&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="s1">&amp;#39;PASSWORD&amp;#39;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s1">&amp;#39;postgres&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="s1">&amp;#39;HOST&amp;#39;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s1">&amp;#39;db&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="s1">&amp;#39;PORT&amp;#39;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">5432&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="p">}&lt;/span>
+&lt;span class="p">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Chạy docker-compose trên Ubuntu&lt;/p>
+&lt;pre>&lt;code>docker-compose up
+&lt;/code>&lt;/pre>&lt;blockquote>
+&lt;p>Chú ý nếu lỗi thì &lt;code>ALLOWED_HOSTS = ['*']&lt;/code>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="một-số-lỗi-thường-gặp">Một số lỗi thường gặp&lt;/h2>
+&lt;ul>
+&lt;li>Cài đặt Docker
+&lt;ul>
+&lt;li>Thiếu permision. Cần cấp permision cho user qua lệnh &lt;code>usermod -aG docker USER&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Cài đặt Django
+&lt;ul>
+&lt;li>Lỗi không kết nối được Database. Cần chú ý đến file &lt;code>settings.py&lt;/code>&lt;/li>
+&lt;li>Lỗi không kết nối được tới Web. Cần chú ý đến &lt;code>ALLOWED_HOSTS&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="tham-khảo">Tham khảo&lt;/h2>
+&lt;p>&lt;a class="link" href="https://docs.docker.com/samples/django/" target="_blank" rel="noopener"
+>https://docs.docker.com/samples/django/&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://docs.docker.com/engine/install/ubuntu/" target="_blank" rel="noopener"
+>https://docs.docker.com/engine/install/ubuntu/&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://docs.docker.com/compose/install/" target="_blank" rel="noopener"
+>https://docs.docker.com/compose/install/&lt;/a>&lt;/p></description></item><item><title>Công cụ cần có của IT</title><link>https://tribuivant.github.io/p/c%C3%B4ng-c%E1%BB%A5-c%E1%BA%A7n-c%C3%B3-c%E1%BB%A7a-it/</link><pubDate>Mon, 02 Aug 2021 07:49:46 +0700</pubDate><guid>https://tribuivant.github.io/p/c%C3%B4ng-c%E1%BB%A5-c%E1%BA%A7n-c%C3%B3-c%E1%BB%A7a-it/</guid><description>&lt;img src="https://tribuivant.github.io/p/c%C3%B4ng-c%E1%BB%A5-c%E1%BA%A7n-c%C3%B3-c%E1%BB%A7a-it/tools.jpg" alt="Featured image of post Công cụ cần có của IT" />&lt;h2 id="trình-duyệt">Trình duyệt&lt;/h2>
+&lt;p>Chắc chắn, trình duyệt là một công cụ (hay ứng dụng) không thể thiếu trên mỗi nền tảng máy tính hay điện thoại. Sau đây là một số trình duyệt mà mình dùng.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.microsoft.com/en-us/edge" target="_blank" rel="noopener"
+>Microsoft Edge&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.google.com/chrome" target="_blank" rel="noopener"
+>Google Chrome&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.mozilla.org/en-US/firefox/new/" target="_blank" rel="noopener"
+>Mozilla Firefox&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.opera.com/" target="_blank" rel="noopener"
+>Opera&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://coccoc.com/home/en/" target="_blank" rel="noopener"
+>Cốc cốc&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://brave.com/" target="_blank" rel="noopener"
+>Brave&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="công-cụ-soạn-thảo">Công cụ soạn thảo&lt;/h2>
+&lt;p>Công cụ soạn thảo, hay trình soạn thảo giúp chúng ta chỉnh sửa File. Sau đây, mình xin giới thiệu một số công cụ mình hay dùng.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://code.visualstudio.com/" target="_blank" rel="noopener"
+>Visual Studio Code&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.sublimetext.com/" target="_blank" rel="noopener"
+>Sublime Text&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://notepad-plus-plus.org/" target="_blank" rel="noopener"
+>Notepad++&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="công-cụ-giải-nén">Công cụ giải nén&lt;/h2>
+&lt;p>Trên hệ điều hành Windows&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.7-zip.org/" target="_blank" rel="noopener"
+>7zip&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.win-rar.com/start.html" target="_blank" rel="noopener"
+>WinRAR&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Trên hệ điều hành Linux&lt;/p>
+&lt;pre>&lt;code>zip
+unzip
+tar
+&lt;/code>&lt;/pre>&lt;h2 id="công-cụ-khác">Công cụ khác&lt;/h2>
+&lt;h3 id="điều-khiển-máy-tính">Điều khiển máy tính&lt;/h3>
+&lt;p>Trên hệ điều hành Windows&lt;/p>
+&lt;ul>
+&lt;li>Remote Desktop&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.teamviewer.com" target="_blank" rel="noopener"
+>TeamViewer&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Trên hệ điều hành Linux&lt;/p>
+&lt;pre>&lt;code>ssh
+&lt;/code>&lt;/pre>&lt;h3 id="chụp-ảnh-màn-hình">Chụp ảnh màn hình&lt;/h3>
+&lt;p>Trên hệ điều hành Windows&lt;/p>
+&lt;ul>
+&lt;li>Snipping Tool | Snip Sketch&lt;/li>
+&lt;li>FastStone Capture&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;h3 id="dịch-thuật">Dịch thuật&lt;/h3>
+&lt;p>Trên hệ điều hành Windows&lt;/p>
+&lt;ul>
+&lt;li>qTranslate&lt;/li>
+&lt;/ul>
+&lt;p>Extension trên trình duyệt&lt;/p>
+&lt;ul>
+&lt;li>eJOY English&lt;/li>
+&lt;/ul>
+&lt;hr></description></item><item><title>Github SSH Key</title><link>https://tribuivant.github.io/p/github-ssh-key/</link><pubDate>Sun, 01 Aug 2021 21:49:19 +0700</pubDate><guid>https://tribuivant.github.io/p/github-ssh-key/</guid><description>&lt;img src="https://tribuivant.github.io/p/github-ssh-key/2021-08-02_064106.png" alt="Featured image of post Github SSH Key" />&lt;h2 id="tạo-ssh-key">Tạo SSH key&lt;/h2>
+&lt;pre>&lt;code>mkdir sshforgithub
+ssh-keygen -t rsa -f id_rsa
+ls -la sshforgithub
+&lt;/code>&lt;/pre>&lt;h2 id="thêm-ssh-key-vào-trong-github">Thêm SSH key vào trong Github&lt;/h2>
+&lt;p>Truy cập &lt;a class="link" href="https://github.com/settings/keys" target="_blank" rel="noopener"
+>https://github.com/settings/keys&lt;/a>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 207; flex-basis: 498px">
+&lt;a href="https://tribuivant.github.io/p/github-ssh-key/2021-08-02_064106.png" data-size="1366x657">&lt;img src="https://tribuivant.github.io/p/github-ssh-key/2021-08-02_064106.png"
+srcset="https://tribuivant.github.io/p/github-ssh-key/2021-08-02_064106_hudefe5ec9c7fd2ccc663df10df76d5bc1_41343_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/github-ssh-key/2021-08-02_064106_hudefe5ec9c7fd2ccc663df10df76d5bc1_41343_1024x0_resize_box_3.png 1024w"
+width="1366"
+height="657"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>Thêm public key vào trong Github
+&lt;figure style="flex-grow: 207; flex-basis: 498px">
+&lt;a href="https://tribuivant.github.io/p/github-ssh-key/2021-08-02_064132.png" data-size="1366x657">&lt;img src="https://tribuivant.github.io/p/github-ssh-key/2021-08-02_064132.png"
+srcset="https://tribuivant.github.io/p/github-ssh-key/2021-08-02_064132_hu51f1a2e00a118b77e45d7a64e8ec95d6_46642_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/github-ssh-key/2021-08-02_064132_hu51f1a2e00a118b77e45d7a64e8ec95d6_46642_1024x0_resize_box_3.png 1024w"
+width="1366"
+height="657"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>Nhập mật khẩu của Github để xác thực.
+&lt;figure style="flex-grow: 207; flex-basis: 498px">
+&lt;a href="https://tribuivant.github.io/p/github-ssh-key/2021-08-02_064155.png" data-size="1366x657">&lt;img src="https://tribuivant.github.io/p/github-ssh-key/2021-08-02_064155.png"
+srcset="https://tribuivant.github.io/p/github-ssh-key/2021-08-02_064155_huf99ba6effedda40c803586a27c4a2875_13478_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/github-ssh-key/2021-08-02_064155_huf99ba6effedda40c803586a27c4a2875_13478_1024x0_resize_box_3.png 1024w"
+width="1366"
+height="657"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;h2 id="thiết-lập-ssh-trên-máy-tính">Thiết lập SSH trên máy tính&lt;/h2>
+&lt;p>Di chuyển key vào trong thư mục SSH, cụ thể là &lt;code>.ssh&lt;/code>&lt;/p>
+&lt;pre>&lt;code>mv id_rsa ~/.ssh
+&lt;/code>&lt;/pre>&lt;p>Thêm dòng sau vào ~/.ssh/config&lt;/p>
+&lt;pre>&lt;code># My Github
+Host github.com
+User git
+Hostname github.com
+Port 22
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_rsa
+&lt;/code>&lt;/pre>&lt;p>Thêm repo remote vào trong project&lt;/p>
+&lt;pre>&lt;code>git remote -v
+git remote add github git@github.com:tribuivant/tribuivant.github.io.git
+git push github master
+&lt;/code>&lt;/pre></description></item><item><title>Triển khai WordPress trên CentOS 7.6</title><link>https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/</link><pubDate>Sun, 01 Aug 2021 16:19:52 +0700</pubDate><guid>https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/</guid><description>&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/lamp_stack.png" alt="Featured image of post Triển khai WordPress trên CentOS 7.6" />&lt;h2 id="giới-thiệu">Giới thiệu&lt;/h2>
+&lt;h2 id="cần-chuẩn-bị">Cần chuẩn bị&lt;/h2>
+&lt;ol>
+&lt;li>Máy ảo (trong bài này mình sử dụng VMware 16)&lt;/li>
+&lt;li>File ISO CentOS 7.6&lt;/li>
+&lt;/ol>
+&lt;h2 id="cài-đặt-môi-trường">Cài đặt môi trường&lt;/h2>
+&lt;h3 id="cài-đặt-máy-ảo">Cài đặt máy ảo&lt;/h3>
+&lt;p>&lt;figure style="flex-grow: 99; flex-basis: 238px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_162637.png" data-size="428x430">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_162637.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_162637_hu5f25b7ac82548162e4063d6fe15086be_18312_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_162637_hu5f25b7ac82548162e4063d6fe15086be_18312_1024x0_resize_box_3.png 1024w"
+width="428"
+height="430"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 99; flex-basis: 238px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163007.png" data-size="428x430">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163007.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163007_hu694701334a6ec1c7a169aa8f63697330_12575_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163007_hu694701334a6ec1c7a169aa8f63697330_12575_1024x0_resize_box_3.png 1024w"
+width="428"
+height="430"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 99; flex-basis: 238px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163040.png" data-size="428x430">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163040.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163040_hu07753bc461ad93d4f5f544088c22f6dd_12932_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163040_hu07753bc461ad93d4f5f544088c22f6dd_12932_1024x0_resize_box_3.png 1024w"
+width="428"
+height="430"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 99; flex-basis: 238px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163111.png" data-size="428x430">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163111.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163111_hue2af321296d8f232fbe233a6c7df9235_6498_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163111_hue2af321296d8f232fbe233a6c7df9235_6498_1024x0_resize_box_3.png 1024w"
+width="428"
+height="430"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 99; flex-basis: 238px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163137.png" data-size="428x430">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163137.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163137_hufddadbd2723472502d35218d900d4dca_6492_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163137_hufddadbd2723472502d35218d900d4dca_6492_1024x0_resize_box_3.png 1024w"
+width="428"
+height="430"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 99; flex-basis: 238px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163150.png" data-size="428x430">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163150.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163150_hu3cffac75edc7ec29a084f329d6e6a701_5355_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163150_hu3cffac75edc7ec29a084f329d6e6a701_5355_1024x0_resize_box_3.png 1024w"
+width="428"
+height="430"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 99; flex-basis: 238px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163159.png" data-size="428x430">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163159.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163159_hub36972c53ef8a85d1679f7f2565429d4_9254_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163159_hub36972c53ef8a85d1679f7f2565429d4_9254_1024x0_resize_box_3.png 1024w"
+width="428"
+height="430"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 99; flex-basis: 238px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163207.png" data-size="428x430">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163207.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163207_hue5add1827559edfd15139adc2ee69a0d_10633_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163207_hue5add1827559edfd15139adc2ee69a0d_10633_1024x0_resize_box_3.png 1024w"
+width="428"
+height="430"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 99; flex-basis: 238px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163218.png" data-size="428x430">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163218.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163218_hu2e6e1a835a417ba23d7ee43d7923655f_6950_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163218_hu2e6e1a835a417ba23d7ee43d7923655f_6950_1024x0_resize_box_3.png 1024w"
+width="428"
+height="430"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 99; flex-basis: 238px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163234.png" data-size="428x430">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163234.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163234_hu20fc6e42298d9ad23957747722db83ec_5177_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163234_hu20fc6e42298d9ad23957747722db83ec_5177_1024x0_resize_box_3.png 1024w"
+width="428"
+height="430"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 99; flex-basis: 238px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163247.png" data-size="428x430">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163247.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163247_hu0997ee2ea02c58e9ffa4ea779104b8d6_9666_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163247_hu0997ee2ea02c58e9ffa4ea779104b8d6_9666_1024x0_resize_box_3.png 1024w"
+width="428"
+height="430"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 99; flex-basis: 238px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163259.png" data-size="428x430">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163259.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163259_hu8715d59327a0ceac23d9538a854e038b_10128_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163259_hu8715d59327a0ceac23d9538a854e038b_10128_1024x0_resize_box_3.png 1024w"
+width="428"
+height="430"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 99; flex-basis: 238px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163307.png" data-size="428x430">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163307.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163307_hu8dd335b4fff7588d17bb435edc8b5bf1_5308_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163307_hu8dd335b4fff7588d17bb435edc8b5bf1_5308_1024x0_resize_box_3.png 1024w"
+width="428"
+height="430"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 99; flex-basis: 238px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163317.png" data-size="428x430">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163317.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163317_hu468b8aa768b609ac4e6966e7ce2b2f0c_11129_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163317_hu468b8aa768b609ac4e6966e7ce2b2f0c_11129_1024x0_resize_box_3.png 1024w"
+width="428"
+height="430"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 104; flex-basis: 251px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163342.png" data-size="750x716">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163342.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163342_hu991c6b4681c87f1d862b48c563bb87ff_20378_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163342_hu991c6b4681c87f1d862b48c563bb87ff_20378_1024x0_resize_box_3.png 1024w"
+width="750"
+height="716"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 99; flex-basis: 238px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163407.png" data-size="428x430">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163407.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163407_hu26d05bdac30772e3ef97afd6c1db6be5_11024_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163407_hu26d05bdac30772e3ef97afd6c1db6be5_11024_1024x0_resize_box_3.png 1024w"
+width="428"
+height="430"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 214; flex-basis: 514px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163748.png" data-size="1364x636">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163748.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163748_hu77077c8473380c144b5ed787ac82dbb4_27484_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163748_hu77077c8473380c144b5ed787ac82dbb4_27484_1024x0_resize_box_3.png 1024w"
+width="1364"
+height="636"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 204; flex-basis: 490px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163859.png" data-size="1364x668">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163859.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163859_hu385cdd1451623c52c800b3ec80ca2bce_6292_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163859_hu385cdd1451623c52c800b3ec80ca2bce_6292_1024x0_resize_box_3.png 1024w"
+width="1364"
+height="668"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 187; flex-basis: 450px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164204.png" data-size="1366x728">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164204.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164204_hu12da331330bdeeba666d747fd82bcec4_25494_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164204_hu12da331330bdeeba666d747fd82bcec4_25494_1024x0_resize_box_3.png 1024w"
+width="1366"
+height="728"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 133; flex-basis: 320px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164244.png" data-size="800x600">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164244.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164244_hua28c20b4aa14ebc8839d932b5b9fe9ac_109424_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164244_hua28c20b4aa14ebc8839d932b5b9fe9ac_109424_1024x0_resize_box_3.png 1024w"
+width="800"
+height="600"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>Chọn &lt;code>DATE &amp;amp; TIME&lt;/code>.
+&lt;figure style="flex-grow: 133; flex-basis: 320px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164327.png" data-size="800x600">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164327.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164327_hu49ea2b24a444fb61d590c07ae377dd89_152159_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164327_hu49ea2b24a444fb61d590c07ae377dd89_152159_1024x0_resize_box_3.png 1024w"
+width="800"
+height="600"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 133; flex-basis: 320px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164435.png" data-size="800x600">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164435.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164435_hubedc083243ea964a7d05856fc3904dbb_98683_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164435_hubedc083243ea964a7d05856fc3904dbb_98683_1024x0_resize_box_3.png 1024w"
+width="800"
+height="600"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 133; flex-basis: 320px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164453.png" data-size="800x600">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164453.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164453_hu93a267c76a04c0e93e38d6058d19b49b_75743_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164453_hu93a267c76a04c0e93e38d6058d19b49b_75743_1024x0_resize_box_3.png 1024w"
+width="800"
+height="600"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 133; flex-basis: 320px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164544.png" data-size="800x600">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164544.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164544_hu077a46484f1dacb6c847805f0cc76718_73548_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164544_hu077a46484f1dacb6c847805f0cc76718_73548_1024x0_resize_box_3.png 1024w"
+width="800"
+height="600"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 133; flex-basis: 320px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164555.png" data-size="800x600">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164555.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164555_hu8ccc1b33785f7457c2948f431101142a_68901_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164555_hu8ccc1b33785f7457c2948f431101142a_68901_1024x0_resize_box_3.png 1024w"
+width="800"
+height="600"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 133; flex-basis: 320px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164609.png" data-size="800x600">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164609.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164609_hucfb3647c13ee84fd535ac94af26bef33_114125_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164609_hucfb3647c13ee84fd535ac94af26bef33_114125_1024x0_resize_box_3.png 1024w"
+width="800"
+height="600"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 133; flex-basis: 320px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164631.png" data-size="800x600">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164631.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164631_hu151995b8c02652835d24f0ea0bc7e3be_47057_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164631_hu151995b8c02652835d24f0ea0bc7e3be_47057_1024x0_resize_box_3.png 1024w"
+width="800"
+height="600"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 133; flex-basis: 320px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164651.png" data-size="800x600">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164651.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164651_hu5c810121617ea26fb4955d0078196d79_54167_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164651_hu5c810121617ea26fb4955d0078196d79_54167_1024x0_resize_box_3.png 1024w"
+width="800"
+height="600"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 133; flex-basis: 320px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164918.png" data-size="800x600">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164918.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164918_hu419aa986991d1cf9c0ccf71c9642dfae_171655_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164918_hu419aa986991d1cf9c0ccf71c9642dfae_171655_1024x0_resize_box_3.png 1024w"
+width="800"
+height="600"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 133; flex-basis: 320px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165445.png" data-size="800x600">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165445.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165445_hu8fd828303b909ab9b068a0aa50f3064c_87243_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165445_hu8fd828303b909ab9b068a0aa50f3064c_87243_1024x0_resize_box_3.png 1024w"
+width="800"
+height="600"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;h3 id="cấu-hình-cho-máy-ảo">Cấu hình cho máy ảo&lt;/h3>
+&lt;p>&lt;figure style="flex-grow: 187; flex-basis: 450px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165552.png" data-size="1366x728">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165552.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165552_hu5f3f9d4b1084a1386d4cfc8700a878d7_15095_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165552_hu5f3f9d4b1084a1386d4cfc8700a878d7_15095_1024x0_resize_box_3.png 1024w"
+width="1366"
+height="728"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 187; flex-basis: 450px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165627.png" data-size="1366x728">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165627.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165627_hu9d426e53ee3ac5b2c2b215bfcb730301_12937_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165627_hu9d426e53ee3ac5b2c2b215bfcb730301_12937_1024x0_resize_box_3.png 1024w"
+width="1366"
+height="728"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 187; flex-basis: 450px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165745.png" data-size="1366x728">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165745.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165745_huc742b608b1c432e72e9368d6c321db63_17832_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165745_huc742b608b1c432e72e9368d6c321db63_17832_1024x0_resize_box_3.png 1024w"
+width="1366"
+height="728"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 200; flex-basis: 482px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165805.png" data-size="1280x637">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165805.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165805_hu0e2c06110fc5aaeb14c9efae2f955609_10388_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165805_hu0e2c06110fc5aaeb14c9efae2f955609_10388_1024x0_resize_box_3.png 1024w"
+width="1280"
+height="637"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 513; flex-basis: 1232px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165841.png" data-size="1366x266">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165841.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165841_hu9b8a54367a5a962e1544f7b312552676_20654_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165841_hu9b8a54367a5a962e1544f7b312552676_20654_1024x0_resize_box_3.png 1024w"
+width="1366"
+height="266"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 352; flex-basis: 847px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165919.png" data-size="1366x387">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165919.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165919_hu45ed7b552e7be723d581248a17c8ad44_21406_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165919_hu45ed7b552e7be723d581248a17c8ad44_21406_1024x0_resize_box_3.png 1024w"
+width="1366"
+height="387"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 187; flex-basis: 450px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_170000.png" data-size="1366x728">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_170000.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_170000_hu2e4de53ccfe9bf6cc4c7d9705e915c52_69029_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_170000_hu2e4de53ccfe9bf6cc4c7d9705e915c52_69029_1024x0_resize_box_3.png 1024w"
+width="1366"
+height="728"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;pre>&lt;code>vi /etc/yum.conf
+exclude=centos-release*
+&lt;/code>&lt;/pre>&lt;p>&lt;figure style="flex-grow: 187; flex-basis: 450px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_170258.png" data-size="1366x728">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_170258.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_170258_hub9def5f5f025134ae0cbb05c5d5fbfb1_63171_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_170258_hub9def5f5f025134ae0cbb05c5d5fbfb1_63171_1024x0_resize_box_3.png 1024w"
+width="1366"
+height="728"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;h3 id="cài-đặt-webserver">Cài đặt Webserver&lt;/h3>
+&lt;blockquote>
+&lt;p>Yêu cầu: Apache phiên bản 2.4&lt;/p>
+&lt;/blockquote>
+&lt;p>Ở bài viết này, chúng ta sẽ sử dụng Apache làm Webserver. Cài đặt Apache trên CentOS 7.6&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">yum install httpd
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Kiểm tra version của Apache&lt;/p>
+&lt;pre>&lt;code>httpd -V
+&lt;/code>&lt;/pre>&lt;p>&lt;figure style="flex-grow: 187; flex-basis: 450px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_172121.png" data-size="1366x728">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_172121.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_172121_hub668f7e36ecdf0cc5f0b8cdd8daf37bc_47544_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_172121_hub668f7e36ecdf0cc5f0b8cdd8daf37bc_47544_1024x0_resize_box_3.png 1024w"
+width="1366"
+height="728"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>Kiểm tra tình trạng và khởi động Apache&lt;/p>
+&lt;pre>&lt;code>systemctl status httpd
+systemctl enable --now httpd
+systemctl start httpd
+&lt;/code>&lt;/pre>&lt;p>Mở port cho Apache&lt;/p>
+&lt;pre>&lt;code>firewall-cmd --add-service=http --permanent
+firewall-cmd --add-service=https --permanent
+firewall-cmd --reload
+&lt;/code>&lt;/pre>&lt;p>&lt;figure style="flex-grow: 180; flex-basis: 432px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_172243.png" data-size="1178x654">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_172243.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_172243_hu07d2cd9f477d5e7533c481c0236fa0ca_194379_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_172243_hu07d2cd9f477d5e7533c481c0236fa0ca_194379_1024x0_resize_box_3.png 1024w"
+width="1178"
+height="654"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;h3 id="cài-đặt-ngôn-ngữ-lập-trình">Cài đặt ngôn ngữ lập trình&lt;/h3>
+&lt;blockquote>
+&lt;p>Yêu cầu: PHP phiên bản 7.4&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a class="link" href="https://www.server-world.info/en/note?os=CentOS_7&amp;amp;p=initial_conf&amp;amp;f=6" target="_blank" rel="noopener"
+>https://www.server-world.info/en/note?os=CentOS_7&amp;p=initial_conf&amp;f=6&lt;/a>&lt;/p>
+&lt;pre>&lt;code>sed -i -e &amp;quot;s/\]$/\]\npriority=10/g&amp;quot; /etc/yum.repos.d/CentOS-Base.repo
+yum -y install http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
+&lt;/code>&lt;/pre>&lt;pre>&lt;code>sudo yum -y install yum-utils
+sudo yum-config-manager --enable remi-php74
+yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm -y
+yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm -y
+yum --enablerepo=remi-php74 install php -y
+yum --enablerepo=remi-php74 install php-cli php-xml php-soap php-xmlrpc php-mbstring php-json php-gd php-mcrypt
+php -v
+php --modules
+sudo vi /var/www/html/info.php
+&amp;lt;?php phpinfo(); ?&amp;gt;
+yum --enablerepo=remi-php74 install php-fpm php-gd php-pdo php-mbstring php-pear -y
+sudo rm /var/www/html/info.php
+systemctl restart httpd
+&lt;/code>&lt;/pre>&lt;h3 id="cài-đặt-database">Cài đặt Database&lt;/h3>
+&lt;blockquote>
+&lt;p>Yêu cầu: MySQL phiên bản 5.6&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a class="link" href="https://www.server-world.info/en/note?os=CentOS_7&amp;amp;p=mysql56&amp;amp;f=1" target="_blank" rel="noopener"
+>https://www.server-world.info/en/note?os=CentOS_7&amp;p=mysql56&amp;f=1&lt;/a>&lt;/p>
+&lt;pre>&lt;code>yum install wget
+wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
+rpm -ivh mysql-community-release-el7-5.noarch.rpm
+ls -1 /etc/yum.repos.d/mysql-community*
+yum install mysql-server
+systemctl start mysqld
+systemctl status mysqld
+mysql_secure_installation
+Set root password and Yes to all
+mysql -V
+mysql -u root -p
+firewall-cmd --add-service=mysqld --permanent
+firewall-cmd --reload
+&lt;/code>&lt;/pre>&lt;pre>&lt;code>select user,host,password from mysql.user;
+show databases;
+&lt;/code>&lt;/pre>&lt;h2 id="cài-đặt-wordpress">Cài đặt WordPress&lt;/h2>
+&lt;pre>&lt;code>CREATE DATABASE wordpress;
+CREATE USER adminuser@localhost IDENTIFIED BY 'TriBUI@2021';
+GRANT ALL PRIVILEGES ON wordpress.* TO adminuser@localhost IDENTIFIED BY 'TriBUI@2021';
+FLUSH PRIVILEGES;
+exit
+&lt;/code>&lt;/pre>&lt;pre>&lt;code>cd ~
+wget http://wordpress.org/latest.tar.gz
+tar -xzvf latest.tar.gz
+cp -r ~/wordpress/ /var/www/html/
+sudo chown -R apache:apache /var/www/html/*
+&lt;/code>&lt;/pre>&lt;pre>&lt;code>cd /var/www/html
+cp wp-config-sample.php wp-config.php
+vi wp-config.php
+&lt;/code>&lt;/pre>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-php" data-lang="php">&lt;span class="c1">// ** MySQL settings - You can get this info from your web host ** //
+&lt;/span>&lt;span class="c1">&lt;/span>&lt;span class="sd">/** The name of the database for WordPress */&lt;/span>
+&lt;span class="nx">define&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="s1">&amp;#39;DB_NAME&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;wordpress&amp;#39;&lt;/span> &lt;span class="p">);&lt;/span>
+&lt;span class="sd">/** MySQL database username */&lt;/span>
+&lt;span class="nx">define&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="s1">&amp;#39;DB_USER&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;adminuser&amp;#39;&lt;/span> &lt;span class="p">);&lt;/span>
+&lt;span class="sd">/** MySQL database password */&lt;/span>
+&lt;span class="nx">define&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="s1">&amp;#39;DB_PASSWORD&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;TriBUI@2021&amp;#39;&lt;/span> &lt;span class="p">);&lt;/span>
+&lt;span class="sd">/** MySQL hostname */&lt;/span>
+&lt;span class="nx">define&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="s1">&amp;#39;DB_HOST&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;localhost&amp;#39;&lt;/span> &lt;span class="p">);&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 187; flex-basis: 450px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_204232.png" data-size="1366x728">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_204232.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_204232_hu44e050d7c51b6b883656a4088b5a9058_12739_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_204232_hu44e050d7c51b6b883656a4088b5a9058_12739_1024x0_resize_box_3.png 1024w"
+width="1366"
+height="728"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;pre>&lt;code>yum --enablerepo=remi-php74 install php-mysql
+&lt;/code>&lt;/pre>&lt;pre>&lt;code>systemctl restart httpd
+systemctl restart mysqld
+&lt;/code>&lt;/pre>&lt;p>&lt;figure style="flex-grow: 187; flex-basis: 450px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_204436.png" data-size="1366x728">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_204436.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_204436_hu34d86535a38989b1794c9fc7f873cff4_27546_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_204436_hu34d86535a38989b1794c9fc7f873cff4_27546_1024x0_resize_box_3.png 1024w"
+width="1366"
+height="728"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 187; flex-basis: 450px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_204546.png" data-size="1366x728">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_204546.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_204546_huc88185bd8ce52b873e873e26a89d7d39_38543_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_204546_huc88185bd8ce52b873e873e26a89d7d39_38543_1024x0_resize_box_3.png 1024w"
+width="1366"
+height="728"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 187; flex-basis: 450px">
+&lt;a href="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_204609.png" data-size="1366x728">&lt;img src="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_204609.png"
+srcset="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_204609_hub248293b0af2fde785125b43ff103687_20049_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_204609_hub248293b0af2fde785125b43ff103687_20049_1024x0_resize_box_3.png 1024w"
+width="1366"
+height="728"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;h2 id="cấu-hình-ra-bên-ngoài-sử-dụng-ngrok">Cấu hình ra bên ngoài sử dụng ngrok&lt;/h2>
+&lt;p>Đăng ký tài khoản ngrok &lt;a class="link" href="https://dashboard.ngrok.com/signup" target="_blank" rel="noopener"
+>ở đây&lt;/a>&lt;/p>
+&lt;pre>&lt;code>cd ~
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
+yum install unzip
+./ngrok authtoken 1w7yOSVfSYC3zxxxxx
+./ngrok http 80
+&lt;/code>&lt;/pre>&lt;pre>&lt;code>yum install tmux
+tmux new -s ngrok
+&lt;/code>&lt;/pre>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-php" data-lang="php">&lt;span class="nx">define&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="s1">&amp;#39;WP_HOME&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;http://192.168.3.136&amp;#39;&lt;/span> &lt;span class="p">);&lt;/span>
+&lt;span class="nx">define&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="s1">&amp;#39;WP_SITEURL&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;http://192.168.3.136&amp;#39;&lt;/span> &lt;span class="p">);&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="một-số-lỗi-thường-gặp-và-chú-ý">Một số lỗi thường gặp và chú ý&lt;/h2>
+&lt;ul>
+&lt;li>Chú ý yêu cầu của WordPress, tham khảo ở đây &lt;a class="link" href="https://wordpress.org/download/" target="_blank" rel="noopener"
+>https://wordpress.org/download/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="tham-khảo">Tham khảo&lt;/h2>
+&lt;p>&lt;a class="link" href="https://www.server-world.info/en/note?os=CentOS_7&amp;amp;p=httpd&amp;amp;f=1" target="_blank" rel="noopener"
+>https://www.server-world.info/en/note?os=CentOS_7&amp;p=httpd&amp;f=1&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-on-centos-7" target="_blank" rel="noopener"
+>https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-on-centos-7&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-centos-7" target="_blank" rel="noopener"
+>https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-centos-7&lt;/a>&lt;/p></description></item><item><title>Cài đặt Hugo trên Netlify</title><link>https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/</link><pubDate>Sun, 01 Aug 2021 12:29:30 +0700</pubDate><guid>https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/</guid><description>&lt;img src="https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/hugo-netlify.png" alt="Featured image of post Cài đặt Hugo trên Netlify" />&lt;h2 id="giới-thiệu">Giới thiệu&lt;/h2>
+&lt;h3 id="hugo-là-gì">Hugo là gì?&lt;/h3>
+&lt;p>Hugo (framework) là một framework được xây dựng dựa trên Golang. Trang chủ &lt;a class="link" href="https://gohugo.io" target="_blank" rel="noopener"
+>https://gohugo.io&lt;/a>&lt;/p>
+&lt;h3 id="netlify">Netlify&lt;/h3>
+&lt;p>Netlify là một nền tảng Cloud computing (Điện toán đám mây) dùng để lưu trữ (hosting) và chạy Serverless back-end cho ứng dụng Web và cho các website tĩnh. Trang chủ &lt;a class="link" href="https://www.netlify.com" target="_blank" rel="noopener"
+>https://www.netlify.com&lt;/a>&lt;/p>
+&lt;h2 id="cài-đặt">Cài đặt&lt;/h2>
+&lt;p>Đây là trang chủ hướng dẫn cài đặt của Hugo, khá chi tiết (&lt;a class="link" href="https://gohugo.io/getting-started/installing%29" target="_blank" rel="noopener"
+>https://gohugo.io/getting-started/installing)&lt;/a>.&lt;/p>
+&lt;blockquote>
+&lt;p>Hugo có 2 loại:&lt;/p>
+&lt;ul>
+&lt;li>Không mở rộng Sass/SCSS (non-extended)&lt;/li>
+&lt;li>Mở rộng Sass/SCSS (extended)&lt;/li>
+&lt;/ul>
+&lt;p>Vậy khi nào cần dùng phần mở rộng Sass/SCSS. Câu trả lời là tuỳ vào themes bạn sử dụng.&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>Trong bài này, mình cài đặt Hugo trên Ubuntu 20.04 và sử dụng themes cần mở rộng nên sẽ có cách lệnh như sau:&lt;/p>
+&lt;/blockquote>
+&lt;pre>&lt;code>sudo apt-get install hugo
+dkpg -i hugo_0.86.1_Linux-64bit.deb
+dkpg -i hugo_extended_0.86.1_Linux-64bit.deb
+&lt;/code>&lt;/pre>&lt;p>Bạn có thể tải các package đã được release &lt;a class="link" href="https://github.com/gohugoio/hugo/releases" target="_blank" rel="noopener"
+>ở đây&lt;/a>&lt;/p>
+&lt;p>Kiểm tra version của Hugo&lt;/p>
+&lt;pre>&lt;code>hugo version
+&lt;/code>&lt;/pre>&lt;p>Bắt đầu một website mới bằng lệnh&lt;/p>
+&lt;pre>&lt;code>hugo new site &amp;lt;site-name&amp;gt;
+&lt;/code>&lt;/pre>&lt;p>Chúng ta sẽ sử dụng Git để lưu trữ mã nguồn. Vào thư mục &lt;code>&amp;lt;site-name&amp;gt;&lt;/code>&lt;/p>
+&lt;pre>&lt;code>git init
+&lt;/code>&lt;/pre>&lt;h3 id="thêm-themes-trên-hugo">Thêm themes trên Hugo&lt;/h3>
+&lt;p>Trang chủ để chúng ta lựa chọn themes &lt;a class="link" href="https://themes.gohugo.io" target="_blank" rel="noopener"
+>https://themes.gohugo.io&lt;/a>. Sau khi chọn được themes thích hợp, chúng ta sẽ thêm themes này vào trong Hugo.&lt;/p>
+&lt;pre>&lt;code class="language-git" data-lang="git">git submodule add https://github.com/jakewies/hugo-theme-codex.git themes/hugo-theme-codex
+&lt;/code>&lt;/pre>&lt;p>Cấu hình cho website để chạy.&lt;/p>
+&lt;blockquote>
+&lt;p>Mỗi themes sẽ có cấu hình riêng nên chúng ta sử dụng lệnh sau để chép cấu hình sang Hugo.&lt;/p>
+&lt;/blockquote>
+&lt;pre>&lt;code>cp themes/hugo-theme-codex/exampleSite/config.toml config.toml
+&lt;/code>&lt;/pre>&lt;p>Xoá &lt;code>themesDir = &amp;quot;../../&amp;quot;&lt;/code> trong &lt;code>config.toml&lt;/code>.&lt;/p>
+&lt;p>Khởi chạy website dưới local. Truy cập http://localhost:1313&lt;/p>
+&lt;pre>&lt;code>hugo server -D
+&lt;/code>&lt;/pre>&lt;h3 id="triển-khai-hugo-lên-netlify">Triển khai Hugo lên Netlify&lt;/h3>
+&lt;p>Tạo một file mới tên là &lt;code>netlify.toml&lt;/code>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="p">[&lt;/span>&lt;span class="nx">build&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;span class="nx">publish&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;public&amp;#34;&lt;/span>
+&lt;span class="nx">command&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;hugo --gc --minify&amp;#34;&lt;/span>
+&lt;span class="p">[&lt;/span>&lt;span class="nx">context&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">production&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">environment&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;span class="nx">HUGO_VERSION&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;0.86.1&amp;#34;&lt;/span>
+&lt;span class="nx">HUGO_ENV&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;production&amp;#34;&lt;/span>
+&lt;span class="nx">HUGO_ENABLEGITINFO&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;true&amp;#34;&lt;/span>
+&lt;span class="p">[&lt;/span>&lt;span class="nx">context&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">split1&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;span class="nx">command&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;hugo --gc --minify --enableGitInfo&amp;#34;&lt;/span>
+&lt;span class="p">[&lt;/span>&lt;span class="nx">context&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">split1&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">environment&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;span class="nx">HUGO_VERSION&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;0.86.1&amp;#34;&lt;/span>
+&lt;span class="nx">HUGO_ENV&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;production&amp;#34;&lt;/span>
+&lt;span class="p">[&lt;/span>&lt;span class="nx">context&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">deploy-preview&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;span class="nx">command&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL&amp;#34;&lt;/span>
+&lt;span class="p">[&lt;/span>&lt;span class="nx">context&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">deploy-preview&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">environment&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;span class="nx">HUGO_VERSION&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;0.86.1&amp;#34;&lt;/span>
+&lt;span class="p">[&lt;/span>&lt;span class="nx">context&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">branch-deploy&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;span class="nx">command&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;hugo --gc --minify -b $DEPLOY_PRIME_URL&amp;#34;&lt;/span>
+&lt;span class="p">[&lt;/span>&lt;span class="nx">context&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">branch-deploy&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">environment&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;span class="nx">HUGO_VERSION&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;0.86.1&amp;#34;&lt;/span>
+&lt;span class="p">[&lt;/span>&lt;span class="nx">context&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">next&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">environment&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;span class="nx">HUGO_ENABLEGITINFO&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;true&amp;#34;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Trên Github, chúng ta sẽ tạo mới một repo. Truy cập &lt;a class="link" href="https://github.com/new" target="_blank" rel="noopener"
+>https://github.com/new&lt;/a>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 141; flex-basis: 339px">
+&lt;a href="https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/2021-08-01-125455.png" data-size="950x671">&lt;img src="https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/2021-08-01-125455.png"
+srcset="https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/2021-08-01-125455_hu021b0ce1c5ea0c6a1e4f96a09ee773d3_51397_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/2021-08-01-125455_hu021b0ce1c5ea0c6a1e4f96a09ee773d3_51397_1024x0_resize_box_3.png 1024w"
+width="950"
+height="671"
+loading="lazy"
+alt="Tạo mới repo">
+&lt;/a>
+&lt;figcaption>Tạo mới repo&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>Sử dụng các lệnh để thêm mã nguồn vào repo
+&lt;figure style="flex-grow: 184; flex-basis: 442px">
+&lt;a href="https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/2021-08-01-125546.png" data-size="1255x681">&lt;img src="https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/2021-08-01-125546.png"
+srcset="https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/2021-08-01-125546_hu6e9d64152b1081d2b6b0bac259765ec1_62847_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/2021-08-01-125546_hu6e9d64152b1081d2b6b0bac259765ec1_62847_1024x0_resize_box_3.png 1024w"
+width="1255"
+height="681"
+loading="lazy"
+alt="Các lệnh Git">
+&lt;/a>
+&lt;figcaption>Các lệnh Git&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;pre>&lt;code>git add .
+git commit -m &amp;quot;first commit&amp;quot;
+git remote add origin https://github.com/tribuivant/hugo-netlify.git
+git push origin master
+&lt;/code>&lt;/pre>&lt;p>Sau khi cấu hình xong, chúng ta sẽ thấy mã nguồn trên Github repo
+&lt;figure style="flex-grow: 197; flex-basis: 473px">
+&lt;a href="https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/2021-08-01-125739.png" data-size="1254x636">&lt;img src="https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/2021-08-01-125739.png"
+srcset="https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/2021-08-01-125739_hu64e4a3eff9b97ac9884e524415d717f2_68886_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/2021-08-01-125739_hu64e4a3eff9b97ac9884e524415d717f2_68886_1024x0_resize_box_3.png 1024w"
+width="1254"
+height="636"
+loading="lazy"
+alt="Kết quả sau khi upload mã nguồn">
+&lt;/a>
+&lt;figcaption>Kết quả sau khi upload mã nguồn&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h3 id="triển-khai-hugo-lên-netlify-1">Triển khai Hugo lên Netlify&lt;/h3>
+&lt;p>Sau khi tạo tài khoản trên Netlify. Chúng ta tạo một site mới.
+&lt;figure style="flex-grow: 201; flex-basis: 482px">
+&lt;a href="https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/2021-08-01-125843.png" data-size="1243x618">&lt;img src="https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/2021-08-01-125843.png"
+srcset="https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/2021-08-01-125843_hu070257e8f16b665c8378e46396614829_40627_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/2021-08-01-125843_hu070257e8f16b665c8378e46396614829_40627_1024x0_resize_box_3.png 1024w"
+width="1243"
+height="618"
+loading="lazy"
+alt="Tạo site mới trên Netlify">
+&lt;/a>
+&lt;figcaption>Tạo site mới trên Netlify&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>Để lấy được mã nguồn, thì chúng ta phải thông qua Github. Bước tiếp theo là chứng thực cho Netlify để pull mã nguồn từ Github về.&lt;/p>
+&lt;blockquote>
+&lt;p>Nếu tab hiện ra thông báo &lt;code>Authorized&lt;/code> thì đã chứng thực thành công.
+&lt;figure style="flex-grow: 213; flex-basis: 512px">
+&lt;a href="https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/2021-08-01-125920.png" data-size="1240x581">&lt;img src="https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/2021-08-01-125920.png"
+srcset="https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/2021-08-01-125920_hube47faa0aab28a497a29ca38b108636c_40577_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/2021-08-01-125920_hube47faa0aab28a497a29ca38b108636c_40577_1024x0_resize_box_3.png 1024w"
+width="1240"
+height="581"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;/blockquote>
+&lt;p>Chọn repo chứa mã nguồn.
+&lt;figure style="flex-grow: 186; flex-basis: 447px">
+&lt;a href="https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/2021-08-01-130050.png" data-size="1252x671">&lt;img src="https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/2021-08-01-130050.png"
+srcset="https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/2021-08-01-130050_hu7307b331075238cb06bad1406b187be8_52779_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/2021-08-01-130050_hu7307b331075238cb06bad1406b187be8_52779_1024x0_resize_box_3.png 1024w"
+width="1252"
+height="671"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>Bước tiếp theo chỉ cần Deploy nữa là xong.
+&lt;figure style="flex-grow: 156; flex-basis: 374px">
+&lt;a href="https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/2021-08-01-154302.png" data-size="1078x691">&lt;img src="https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/2021-08-01-154302.png"
+srcset="https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/2021-08-01-154302_hucae4232a6e4536b28eabe4ec0b90b10d_38604_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/2021-08-01-154302_hucae4232a6e4536b28eabe4ec0b90b10d_38604_1024x0_resize_box_3.png 1024w"
+width="1078"
+height="691"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>Khi chúng ta nhận được thông báo như vầy thì ta đã có một trang web.
+&lt;figure style="flex-grow: 207; flex-basis: 497px">
+&lt;a href="https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/2021-08-01-154455.png" data-size="1303x629">&lt;img src="https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/2021-08-01-154455.png"
+srcset="https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/2021-08-01-154455_hu85585c546da82336761cc877d7a956b6_53153_480x0_resize_box_3.png 480w, https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/2021-08-01-154455_hu85585c546da82336761cc877d7a956b6_53153_1024x0_resize_box_3.png 1024w"
+width="1303"
+height="629"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>Tuy nhiên, ở ví dụ này Netlify tự sinh ra domain. Chúng ta có thể sửa lại domain này bên trong &lt;code>Site settings&lt;/code> .&lt;/p>
+&lt;p>Trang demo: &lt;a class="link" href="https://buivantri-hugo.netlify.app" target="_blank" rel="noopener"
+>https://buivantri-hugo.netlify.app&lt;/a>&lt;/p>
+&lt;h2 id="một-số-lỗi-thường-gặp-khi-cài-đặt-và-triển-khai">Một số lỗi thường gặp khi cài đặt và triển khai.&lt;/h2>
+&lt;ol>
+&lt;li>Lỗi trong phần Hugo
+&lt;ul>
+&lt;li>Cài đặt Hugo lỗi&lt;/li>
+&lt;li>Thiếu phần mở rộng Sass/SCSS trên Hugo.&lt;/li>
+&lt;li>Sai &lt;code>config.toml&lt;/code> trong &lt;code>themes&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Lỗi trong phần triển khai lên Netlify
+&lt;ul>
+&lt;li>Sai &lt;code>netlify.toml&lt;/code> dẫn đến deploy lỗi.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="tham-khảo">Tham khảo&lt;/h2>
+&lt;p>&lt;a class="link" href="https://docs.netlify.com/configure-builds/common-configurations/hugo/" target="_blank" rel="noopener"
+>https://docs.netlify.com/configure-builds/common-configurations/hugo/&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://gohugo.io/hosting-and-deployment/hosting-on-netlify/" target="_blank" rel="noopener"
+>https://gohugo.io/hosting-and-deployment/hosting-on-netlify/&lt;/a>&lt;/p></description></item></channel></rss>

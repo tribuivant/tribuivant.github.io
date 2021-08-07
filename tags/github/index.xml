@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Github on Viết log bằng Git</title><link>https://tribuivant.github.io/tags/github/</link><description>Recent content in Github on Viết log bằng Git</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 01 Aug 2021 21:49:19 +0700</lastBuildDate><atom:link href="https://tribuivant.github.io/tags/github/index.xml" rel="self" type="application/rss+xml"/><item><title>Github SSH Key</title><link>https://tribuivant.github.io/p/github-ssh-key/</link><pubDate>Sun, 01 Aug 2021 21:49:19 +0700</pubDate><guid>https://tribuivant.github.io/p/github-ssh-key/</guid><description>Tạo SSH key mkdir sshforgithub ssh-keygen -t rsa -f id_rsa ls -la sshforgithub Thêm SSH key vào trong Github Truy cập https://github.com/settings/keys
+Thêm public key vào trong Github
+Nhập mật khẩu của Github để xác thực.
+Thiết lập SSH trên máy tính Di chuyển key vào trong thư mục SSH, cụ thể là .ssh
+mv id_rsa ~/.ssh Thêm dòng sau vào ~/.ssh/config
+# My Github Host github.</description></item></channel></rss>

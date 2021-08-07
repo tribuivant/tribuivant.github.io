@@ -1,0 +1,582 @@
+<!doctype html><html lang=en-us>
+<head><meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Giới thiệu Cần chuẩn bị  Máy ảo (trong bài này mình sử dụng VMware 16) File ISO CentOS 7.6  Cài đặt môi trường Cài đặt máy ảo  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Chọn DATE &amp;amp; TIME."><title>Triển khai WordPress trên CentOS 7.6</title>
+<link rel=canonical href=https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/>
+<link rel=stylesheet href=/scss/style.min.css><meta property="og:title" content="Triển khai WordPress trên CentOS 7.6">
+<meta property="og:description" content="Giới thiệu Cần chuẩn bị  Máy ảo (trong bài này mình sử dụng VMware 16) File ISO CentOS 7.6  Cài đặt môi trường Cài đặt máy ảo  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Chọn DATE &amp;amp; TIME.">
+<meta property="og:url" content="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/">
+<meta property="og:site_name" content="Viết log bằng Git">
+<meta property="og:type" content="article"><meta property="article:section" content="Post"><meta property="article:tag" content="WordPress"><meta property="article:tag" content="CentOS"><meta property="article:tag" content="VMware"><meta property="article:tag" content="ngrok"><meta property="article:tag" content="Apache"><meta property="article:tag" content="MySQL"><meta property="article:tag" content="PHP"><meta property="article:tag" content="LAMP stack"><meta property="article:published_time" content="2021-08-01T16:19:52+07:00"><meta property="article:modified_time" content="2021-08-01T00:00:00+00:00"><meta property="og:image" content="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/lamp_stack.png">
+<meta name=twitter:title content="Triển khai WordPress trên CentOS 7.6">
+<meta name=twitter:description content="Giới thiệu Cần chuẩn bị  Máy ảo (trong bài này mình sử dụng VMware 16) File ISO CentOS 7.6  Cài đặt môi trường Cài đặt máy ảo  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Chọn DATE &amp;amp; TIME."><meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/lamp_stack.png">
+</head>
+<body class="article-page has-toc">
+<script>(function(){const a='StackColorScheme';localStorage.getItem(a)||localStorage.setItem(a,"auto")})()</script><script>(function(){const b='StackColorScheme',a=localStorage.getItem(b),c=window.matchMedia('(prefers-color-scheme: dark)').matches===!0;a=='dark'||a==='auto'&&c?document.documentElement.dataset.scheme='dark':document.documentElement.dataset.scheme='light'})()</script>
+<div class="container main-container flex
+extended">
+<div id=article-toolbar>
+<a href=https://tribuivant.github.io class=back-home><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><polyline points="15 6 9 12 15 18"/></svg>
+<span>Back</span>
+</a>
+</div>
+<main class="main full-width">
+<article class="has-image main-article">
+<header class=article-header>
+<div class=article-image>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/>
+<img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/lamp_stack_hu05ca14ce72e2edb176b411a05397bf9a_49400_800x0_resize_box_3.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/lamp_stack_hu05ca14ce72e2edb176b411a05397bf9a_49400_800x0_resize_box_3.png 800w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/lamp_stack_hu05ca14ce72e2edb176b411a05397bf9a_49400_1600x0_resize_box_3.png 1600w" width=800 height=320 loading=lazy alt="Featured image of post Triển khai WordPress trên CentOS 7.6">
+</a>
+</div>
+<div class=article-details>
+<header class=article-category>
+<a href=/categories/tutorials/>
+Tutorials
+</a>
+</header>
+<h2 class=article-title>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/>Triển khai WordPress trên CentOS 7.6</a>
+</h2>
+<footer class=article-time>
+<div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M11.795 21H5a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v4"/><circle cx="18" cy="18" r="4"/><path d="M15 3v4"/><path d="M7 3v4"/><path d="M3 11h16"/><path d="M18 16.496V18l1 1"/></svg>
+<time class=article-time--published>Aug 01, 2021</time>
+</div>
+<div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
+<time class=article-time--reading>
+2 min read
+</time>
+</div>
+</footer>
+</div>
+</header>
+<section class=article-content>
+<h2 id=giới-thiệu>Giới thiệu</h2>
+<h2 id=cần-chuẩn-bị>Cần chuẩn bị</h2>
+<ol>
+<li>Máy ảo (trong bài này mình sử dụng VMware 16)</li>
+<li>File ISO CentOS 7.6</li>
+</ol>
+<h2 id=cài-đặt-môi-trường>Cài đặt môi trường</h2>
+<h3 id=cài-đặt-máy-ảo>Cài đặt máy ảo</h3>
+<p><figure style=flex-grow:99;flex-basis:238px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_162637.png data-size=428x430><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_162637.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_162637_hu5f25b7ac82548162e4063d6fe15086be_18312_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_162637_hu5f25b7ac82548162e4063d6fe15086be_18312_1024x0_resize_box_3.png 1024w" width=428 height=430 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:99;flex-basis:238px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163007.png data-size=428x430><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163007.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163007_hu694701334a6ec1c7a169aa8f63697330_12575_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163007_hu694701334a6ec1c7a169aa8f63697330_12575_1024x0_resize_box_3.png 1024w" width=428 height=430 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:99;flex-basis:238px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163040.png data-size=428x430><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163040.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163040_hu07753bc461ad93d4f5f544088c22f6dd_12932_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163040_hu07753bc461ad93d4f5f544088c22f6dd_12932_1024x0_resize_box_3.png 1024w" width=428 height=430 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:99;flex-basis:238px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163111.png data-size=428x430><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163111.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163111_hue2af321296d8f232fbe233a6c7df9235_6498_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163111_hue2af321296d8f232fbe233a6c7df9235_6498_1024x0_resize_box_3.png 1024w" width=428 height=430 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:99;flex-basis:238px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163137.png data-size=428x430><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163137.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163137_hufddadbd2723472502d35218d900d4dca_6492_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163137_hufddadbd2723472502d35218d900d4dca_6492_1024x0_resize_box_3.png 1024w" width=428 height=430 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:99;flex-basis:238px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163150.png data-size=428x430><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163150.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163150_hu3cffac75edc7ec29a084f329d6e6a701_5355_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163150_hu3cffac75edc7ec29a084f329d6e6a701_5355_1024x0_resize_box_3.png 1024w" width=428 height=430 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:99;flex-basis:238px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163159.png data-size=428x430><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163159.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163159_hub36972c53ef8a85d1679f7f2565429d4_9254_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163159_hub36972c53ef8a85d1679f7f2565429d4_9254_1024x0_resize_box_3.png 1024w" width=428 height=430 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:99;flex-basis:238px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163207.png data-size=428x430><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163207.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163207_hue5add1827559edfd15139adc2ee69a0d_10633_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163207_hue5add1827559edfd15139adc2ee69a0d_10633_1024x0_resize_box_3.png 1024w" width=428 height=430 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:99;flex-basis:238px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163218.png data-size=428x430><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163218.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163218_hu2e6e1a835a417ba23d7ee43d7923655f_6950_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163218_hu2e6e1a835a417ba23d7ee43d7923655f_6950_1024x0_resize_box_3.png 1024w" width=428 height=430 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:99;flex-basis:238px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163234.png data-size=428x430><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163234.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163234_hu20fc6e42298d9ad23957747722db83ec_5177_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163234_hu20fc6e42298d9ad23957747722db83ec_5177_1024x0_resize_box_3.png 1024w" width=428 height=430 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:99;flex-basis:238px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163247.png data-size=428x430><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163247.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163247_hu0997ee2ea02c58e9ffa4ea779104b8d6_9666_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163247_hu0997ee2ea02c58e9ffa4ea779104b8d6_9666_1024x0_resize_box_3.png 1024w" width=428 height=430 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:99;flex-basis:238px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163259.png data-size=428x430><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163259.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163259_hu8715d59327a0ceac23d9538a854e038b_10128_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163259_hu8715d59327a0ceac23d9538a854e038b_10128_1024x0_resize_box_3.png 1024w" width=428 height=430 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:99;flex-basis:238px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163307.png data-size=428x430><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163307.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163307_hu8dd335b4fff7588d17bb435edc8b5bf1_5308_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163307_hu8dd335b4fff7588d17bb435edc8b5bf1_5308_1024x0_resize_box_3.png 1024w" width=428 height=430 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:99;flex-basis:238px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163317.png data-size=428x430><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163317.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163317_hu468b8aa768b609ac4e6966e7ce2b2f0c_11129_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163317_hu468b8aa768b609ac4e6966e7ce2b2f0c_11129_1024x0_resize_box_3.png 1024w" width=428 height=430 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:104;flex-basis:251px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163342.png data-size=750x716><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163342.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163342_hu991c6b4681c87f1d862b48c563bb87ff_20378_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163342_hu991c6b4681c87f1d862b48c563bb87ff_20378_1024x0_resize_box_3.png 1024w" width=750 height=716 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:99;flex-basis:238px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163407.png data-size=428x430><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163407.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163407_hu26d05bdac30772e3ef97afd6c1db6be5_11024_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163407_hu26d05bdac30772e3ef97afd6c1db6be5_11024_1024x0_resize_box_3.png 1024w" width=428 height=430 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:214;flex-basis:514px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163748.png data-size=1364x636><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163748.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163748_hu77077c8473380c144b5ed787ac82dbb4_27484_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163748_hu77077c8473380c144b5ed787ac82dbb4_27484_1024x0_resize_box_3.png 1024w" width=1364 height=636 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:204;flex-basis:490px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163859.png data-size=1364x668><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163859.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163859_hu385cdd1451623c52c800b3ec80ca2bce_6292_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_163859_hu385cdd1451623c52c800b3ec80ca2bce_6292_1024x0_resize_box_3.png 1024w" width=1364 height=668 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:187;flex-basis:450px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164204.png data-size=1366x728><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164204.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164204_hu12da331330bdeeba666d747fd82bcec4_25494_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164204_hu12da331330bdeeba666d747fd82bcec4_25494_1024x0_resize_box_3.png 1024w" width=1366 height=728 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:133;flex-basis:320px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164244.png data-size=800x600><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164244.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164244_hua28c20b4aa14ebc8839d932b5b9fe9ac_109424_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164244_hua28c20b4aa14ebc8839d932b5b9fe9ac_109424_1024x0_resize_box_3.png 1024w" width=800 height=600 loading=lazy>
+</a>
+</figure></p>
+<p>Chọn <code>DATE & TIME</code>.
+<figure style=flex-grow:133;flex-basis:320px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164327.png data-size=800x600><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164327.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164327_hu49ea2b24a444fb61d590c07ae377dd89_152159_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164327_hu49ea2b24a444fb61d590c07ae377dd89_152159_1024x0_resize_box_3.png 1024w" width=800 height=600 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:133;flex-basis:320px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164435.png data-size=800x600><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164435.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164435_hubedc083243ea964a7d05856fc3904dbb_98683_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164435_hubedc083243ea964a7d05856fc3904dbb_98683_1024x0_resize_box_3.png 1024w" width=800 height=600 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:133;flex-basis:320px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164453.png data-size=800x600><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164453.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164453_hu93a267c76a04c0e93e38d6058d19b49b_75743_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164453_hu93a267c76a04c0e93e38d6058d19b49b_75743_1024x0_resize_box_3.png 1024w" width=800 height=600 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:133;flex-basis:320px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164544.png data-size=800x600><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164544.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164544_hu077a46484f1dacb6c847805f0cc76718_73548_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164544_hu077a46484f1dacb6c847805f0cc76718_73548_1024x0_resize_box_3.png 1024w" width=800 height=600 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:133;flex-basis:320px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164555.png data-size=800x600><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164555.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164555_hu8ccc1b33785f7457c2948f431101142a_68901_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164555_hu8ccc1b33785f7457c2948f431101142a_68901_1024x0_resize_box_3.png 1024w" width=800 height=600 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:133;flex-basis:320px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164609.png data-size=800x600><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164609.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164609_hucfb3647c13ee84fd535ac94af26bef33_114125_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164609_hucfb3647c13ee84fd535ac94af26bef33_114125_1024x0_resize_box_3.png 1024w" width=800 height=600 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:133;flex-basis:320px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164631.png data-size=800x600><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164631.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164631_hu151995b8c02652835d24f0ea0bc7e3be_47057_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164631_hu151995b8c02652835d24f0ea0bc7e3be_47057_1024x0_resize_box_3.png 1024w" width=800 height=600 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:133;flex-basis:320px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164651.png data-size=800x600><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164651.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164651_hu5c810121617ea26fb4955d0078196d79_54167_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164651_hu5c810121617ea26fb4955d0078196d79_54167_1024x0_resize_box_3.png 1024w" width=800 height=600 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:133;flex-basis:320px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164918.png data-size=800x600><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164918.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164918_hu419aa986991d1cf9c0ccf71c9642dfae_171655_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_164918_hu419aa986991d1cf9c0ccf71c9642dfae_171655_1024x0_resize_box_3.png 1024w" width=800 height=600 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:133;flex-basis:320px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165445.png data-size=800x600><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165445.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165445_hu8fd828303b909ab9b068a0aa50f3064c_87243_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165445_hu8fd828303b909ab9b068a0aa50f3064c_87243_1024x0_resize_box_3.png 1024w" width=800 height=600 loading=lazy>
+</a>
+</figure></p>
+<h3 id=cấu-hình-cho-máy-ảo>Cấu hình cho máy ảo</h3>
+<p><figure style=flex-grow:187;flex-basis:450px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165552.png data-size=1366x728><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165552.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165552_hu5f3f9d4b1084a1386d4cfc8700a878d7_15095_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165552_hu5f3f9d4b1084a1386d4cfc8700a878d7_15095_1024x0_resize_box_3.png 1024w" width=1366 height=728 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:187;flex-basis:450px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165627.png data-size=1366x728><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165627.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165627_hu9d426e53ee3ac5b2c2b215bfcb730301_12937_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165627_hu9d426e53ee3ac5b2c2b215bfcb730301_12937_1024x0_resize_box_3.png 1024w" width=1366 height=728 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:187;flex-basis:450px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165745.png data-size=1366x728><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165745.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165745_huc742b608b1c432e72e9368d6c321db63_17832_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165745_huc742b608b1c432e72e9368d6c321db63_17832_1024x0_resize_box_3.png 1024w" width=1366 height=728 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:200;flex-basis:482px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165805.png data-size=1280x637><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165805.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165805_hu0e2c06110fc5aaeb14c9efae2f955609_10388_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165805_hu0e2c06110fc5aaeb14c9efae2f955609_10388_1024x0_resize_box_3.png 1024w" width=1280 height=637 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:513;flex-basis:1232px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165841.png data-size=1366x266><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165841.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165841_hu9b8a54367a5a962e1544f7b312552676_20654_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165841_hu9b8a54367a5a962e1544f7b312552676_20654_1024x0_resize_box_3.png 1024w" width=1366 height=266 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:352;flex-basis:847px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165919.png data-size=1366x387><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165919.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165919_hu45ed7b552e7be723d581248a17c8ad44_21406_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_165919_hu45ed7b552e7be723d581248a17c8ad44_21406_1024x0_resize_box_3.png 1024w" width=1366 height=387 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:187;flex-basis:450px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_170000.png data-size=1366x728><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_170000.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_170000_hu2e4de53ccfe9bf6cc4c7d9705e915c52_69029_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_170000_hu2e4de53ccfe9bf6cc4c7d9705e915c52_69029_1024x0_resize_box_3.png 1024w" width=1366 height=728 loading=lazy>
+</a>
+</figure></p>
+<pre><code>vi /etc/yum.conf
+exclude=centos-release*
+</code></pre><p><figure style=flex-grow:187;flex-basis:450px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_170258.png data-size=1366x728><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_170258.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_170258_hub9def5f5f025134ae0cbb05c5d5fbfb1_63171_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_170258_hub9def5f5f025134ae0cbb05c5d5fbfb1_63171_1024x0_resize_box_3.png 1024w" width=1366 height=728 loading=lazy>
+</a>
+</figure></p>
+<h3 id=cài-đặt-webserver>Cài đặt Webserver</h3>
+<blockquote>
+<p>Yêu cầu: Apache phiên bản 2.4</p>
+</blockquote>
+<p>Ở bài viết này, chúng ta sẽ sử dụng Apache làm Webserver. Cài đặt Apache trên CentOS 7.6</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>yum install httpd
+</code></pre></div><p>Kiểm tra version của Apache</p>
+<pre><code>httpd -V
+</code></pre><p><figure style=flex-grow:187;flex-basis:450px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_172121.png data-size=1366x728><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_172121.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_172121_hub668f7e36ecdf0cc5f0b8cdd8daf37bc_47544_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_172121_hub668f7e36ecdf0cc5f0b8cdd8daf37bc_47544_1024x0_resize_box_3.png 1024w" width=1366 height=728 loading=lazy>
+</a>
+</figure></p>
+<p>Kiểm tra tình trạng và khởi động Apache</p>
+<pre><code>systemctl status httpd
+systemctl enable --now httpd
+systemctl start httpd
+</code></pre><p>Mở port cho Apache</p>
+<pre><code>firewall-cmd --add-service=http --permanent
+firewall-cmd --add-service=https --permanent
+firewall-cmd --reload
+</code></pre><p><figure style=flex-grow:180;flex-basis:432px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_172243.png data-size=1178x654><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_172243.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_172243_hu07d2cd9f477d5e7533c481c0236fa0ca_194379_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_172243_hu07d2cd9f477d5e7533c481c0236fa0ca_194379_1024x0_resize_box_3.png 1024w" width=1178 height=654 loading=lazy>
+</a>
+</figure></p>
+<h3 id=cài-đặt-ngôn-ngữ-lập-trình>Cài đặt ngôn ngữ lập trình</h3>
+<blockquote>
+<p>Yêu cầu: PHP phiên bản 7.4</p>
+</blockquote>
+<p><a class=link href="https://www.server-world.info/en/note?os=CentOS_7&p=initial_conf&f=6" target=_blank rel=noopener>https://www.server-world.info/en/note?os=CentOS_7&p=initial_conf&f=6</a></p>
+<pre><code>sed -i -e &quot;s/\]$/\]\npriority=10/g&quot; /etc/yum.repos.d/CentOS-Base.repo
+
+yum -y install http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
+
+</code></pre><pre><code>sudo yum -y install yum-utils
+sudo yum-config-manager --enable remi-php74
+
+yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm -y
+
+yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm -y
+
+yum --enablerepo=remi-php74 install php -y
+yum --enablerepo=remi-php74 install php-cli php-xml php-soap php-xmlrpc php-mbstring php-json php-gd php-mcrypt
+
+php -v
+php --modules
+
+sudo vi /var/www/html/info.php
+&lt;?php phpinfo(); ?&gt;
+
+yum --enablerepo=remi-php74 install php-fpm php-gd php-pdo php-mbstring php-pear -y
+
+sudo rm /var/www/html/info.php
+
+systemctl restart httpd
+</code></pre><h3 id=cài-đặt-database>Cài đặt Database</h3>
+<blockquote>
+<p>Yêu cầu: MySQL phiên bản 5.6</p>
+</blockquote>
+<p><a class=link href="https://www.server-world.info/en/note?os=CentOS_7&p=mysql56&f=1" target=_blank rel=noopener>https://www.server-world.info/en/note?os=CentOS_7&p=mysql56&f=1</a></p>
+<pre><code>yum install wget
+
+wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
+
+rpm -ivh mysql-community-release-el7-5.noarch.rpm
+
+ls -1 /etc/yum.repos.d/mysql-community*
+
+yum install mysql-server
+
+systemctl start mysqld
+
+systemctl status mysqld
+
+mysql_secure_installation
+
+Set root password and Yes to all
+
+mysql -V
+
+mysql -u root -p
+
+firewall-cmd --add-service=mysqld --permanent
+firewall-cmd --reload
+</code></pre><pre><code>select user,host,password from mysql.user;
+show databases;
+</code></pre><h2 id=cài-đặt-wordpress>Cài đặt WordPress</h2>
+<pre><code>CREATE DATABASE wordpress;
+
+CREATE USER adminuser@localhost IDENTIFIED BY 'TriBUI@2021';
+
+GRANT ALL PRIVILEGES ON wordpress.* TO adminuser@localhost IDENTIFIED BY 'TriBUI@2021';
+
+FLUSH PRIVILEGES;
+
+exit
+</code></pre><pre><code>cd ~
+wget http://wordpress.org/latest.tar.gz
+
+tar -xzvf latest.tar.gz
+
+cp -r ~/wordpress/ /var/www/html/
+
+sudo chown -R apache:apache /var/www/html/*
+</code></pre><pre><code>cd /var/www/html
+
+cp wp-config-sample.php wp-config.php
+
+vi wp-config.php
+</code></pre><div class=highlight><pre tabindex=0 class=chroma><code class=language-php data-lang=php><span class=c1>// ** MySQL settings - You can get this info from your web host ** //
+</span><span class=c1></span><span class=sd>/** The name of the database for WordPress */</span>
+<span class=nx>define</span><span class=p>(</span> <span class=s1>&#39;DB_NAME&#39;</span><span class=p>,</span> <span class=s1>&#39;wordpress&#39;</span> <span class=p>);</span>
+
+<span class=sd>/** MySQL database username */</span>
+<span class=nx>define</span><span class=p>(</span> <span class=s1>&#39;DB_USER&#39;</span><span class=p>,</span> <span class=s1>&#39;adminuser&#39;</span> <span class=p>);</span>
+
+<span class=sd>/** MySQL database password */</span>
+<span class=nx>define</span><span class=p>(</span> <span class=s1>&#39;DB_PASSWORD&#39;</span><span class=p>,</span> <span class=s1>&#39;TriBUI@2021&#39;</span> <span class=p>);</span>
+
+<span class=sd>/** MySQL hostname */</span>
+<span class=nx>define</span><span class=p>(</span> <span class=s1>&#39;DB_HOST&#39;</span><span class=p>,</span> <span class=s1>&#39;localhost&#39;</span> <span class=p>);</span>
+</code></pre></div><p><figure style=flex-grow:187;flex-basis:450px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_204232.png data-size=1366x728><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_204232.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_204232_hu44e050d7c51b6b883656a4088b5a9058_12739_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_204232_hu44e050d7c51b6b883656a4088b5a9058_12739_1024x0_resize_box_3.png 1024w" width=1366 height=728 loading=lazy>
+</a>
+</figure></p>
+<pre><code>yum --enablerepo=remi-php74 install php-mysql
+
+</code></pre><pre><code>systemctl restart httpd
+systemctl restart mysqld
+</code></pre><p><figure style=flex-grow:187;flex-basis:450px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_204436.png data-size=1366x728><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_204436.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_204436_hu34d86535a38989b1794c9fc7f873cff4_27546_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_204436_hu34d86535a38989b1794c9fc7f873cff4_27546_1024x0_resize_box_3.png 1024w" width=1366 height=728 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:187;flex-basis:450px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_204546.png data-size=1366x728><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_204546.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_204546_huc88185bd8ce52b873e873e26a89d7d39_38543_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_204546_huc88185bd8ce52b873e873e26a89d7d39_38543_1024x0_resize_box_3.png 1024w" width=1366 height=728 loading=lazy>
+</a>
+</figure></p>
+<p><figure style=flex-grow:187;flex-basis:450px>
+<a href=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_204609.png data-size=1366x728><img src=/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_204609.png srcset="/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_204609_hub248293b0af2fde785125b43ff103687_20049_480x0_resize_box_3.png 480w, /p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/2021-08-01_204609_hub248293b0af2fde785125b43ff103687_20049_1024x0_resize_box_3.png 1024w" width=1366 height=728 loading=lazy>
+</a>
+</figure></p>
+<h2 id=cấu-hình-ra-bên-ngoài-sử-dụng-ngrok>Cấu hình ra bên ngoài sử dụng ngrok</h2>
+<p>Đăng ký tài khoản ngrok <a class=link href=https://dashboard.ngrok.com/signup target=_blank rel=noopener>ở đây</a></p>
+<pre><code>cd ~
+
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
+
+yum install unzip
+
+./ngrok authtoken 1w7yOSVfSYC3zxxxxx
+
+./ngrok http 80
+</code></pre><pre><code>yum install tmux
+tmux new -s ngrok
+</code></pre><div class=highlight><pre tabindex=0 class=chroma><code class=language-php data-lang=php><span class=nx>define</span><span class=p>(</span> <span class=s1>&#39;WP_HOME&#39;</span><span class=p>,</span> <span class=s1>&#39;http://192.168.3.136&#39;</span> <span class=p>);</span>
+<span class=nx>define</span><span class=p>(</span> <span class=s1>&#39;WP_SITEURL&#39;</span><span class=p>,</span> <span class=s1>&#39;http://192.168.3.136&#39;</span> <span class=p>);</span>
+</code></pre></div><h2 id=một-số-lỗi-thường-gặp-và-chú-ý>Một số lỗi thường gặp và chú ý</h2>
+<ul>
+<li>Chú ý yêu cầu của WordPress, tham khảo ở đây <a class=link href=https://wordpress.org/download/ target=_blank rel=noopener>https://wordpress.org/download/</a></li>
+</ul>
+<h2 id=tham-khảo>Tham khảo</h2>
+<p><a class=link href="https://www.server-world.info/en/note?os=CentOS_7&p=httpd&f=1" target=_blank rel=noopener>https://www.server-world.info/en/note?os=CentOS_7&p=httpd&f=1</a></p>
+<p><a class=link href=https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-on-centos-7 target=_blank rel=noopener>https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-on-centos-7</a></p>
+<p><a class=link href=https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-centos-7 target=_blank rel=noopener>https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-centos-7</a></p>
+</section>
+<footer class=article-footer>
+<section class=article-tags>
+<a href=/tags/wordpress/>WordPress</a>
+<a href=/tags/centos/>CentOS</a>
+<a href=/tags/vmware/>VMware</a>
+<a href=/tags/ngrok/>ngrok</a>
+<a href=/tags/apache/>Apache</a>
+<a href=/tags/mysql/>MySQL</a>
+<a href=/tags/php/>PHP</a>
+<a href=/tags/lamp-stack/>LAMP stack</a>
+</section>
+<section class=article-time><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
+<span class=article-time--modified>
+Last updated on Aug 01, 2021 00:00 UTC
+</span>
+</section></footer>
+</article>
+<aside class=related-contents--wrapper>
+<h2 class=section-title>Related contents</h2>
+<div class=related-contents>
+<div class="flex article-list--tile">
+<article class=has-image>
+<a href=/p/docker-python-django/>
+<div class=article-image>
+<img src=/p/docker-python-django/docker-django.78bd8baf00339e26c3aac6470b2bbdd8_hu34f5afbeb8dfef8418783929efc1b28d_60404_250x150_fill_q75_box_smart1.jpg width=250 height=150 loading=lazy data-key data-hash="md5-eL2LrwAznibDqsZHCyu92A==">
+</div>
+<div class=article-details>
+<h2 class=article-title>Docker Python Django</h2>
+</div>
+</a>
+</article>
+<article class=has-image>
+<a href=/p/github-ssh-key/>
+<div class=article-image>
+<img src=/p/github-ssh-key/2021-08-02_064106.a97033f50a9128142f0a6f100d7e15d6_hudefe5ec9c7fd2ccc663df10df76d5bc1_41343_250x150_fill_box_smart1_3.png width=250 height=150 loading=lazy data-key data-hash="md5-qXAz9QqRKBQvCm8QDX4V1g==">
+</div>
+<div class=article-details>
+<h2 class=article-title>Github SSH Key</h2>
+</div>
+</a>
+</article>
+<article class=has-image>
+<a href=/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/>
+<div class=article-image>
+<img src=/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/hugo-netlify.a33652cbd36b54154a0bdec7ae3adb58_hu7160c41723ceb4a8d643e2396069a7e0_27756_250x150_fill_box_smart1_3.png width=250 height=150 loading=lazy data-key data-hash="md5-ozZSy9NrVBVKC97HrjrbWA==">
+</div>
+<div class=article-details>
+<h2 class=article-title>Cài đặt Hugo trên Netlify</h2>
+</div>
+</a>
+</article>
+</div>
+</div>
+</aside>
+<div class=disqus-container>
+<div id=disqus_thread></div>
+<script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='//hugo-theme-stack.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script>
+<noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
+<a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a>
+</div>
+<style>.disqus-container{background-color:var(--card-background);border-radius:var(--card-border-radius);box-shadow:var(--shadow-l1);padding:var(--card-padding)}</style>
+<script>window.addEventListener('onColorSchemeChange',a=>{DISQUS&&DISQUS.reset({reload:!0})})</script>
+<footer class=site-footer>
+<section class=copyright>
+&copy;
+2021 Viết log bằng Git
+</section>
+<section class=powerby>
+Built with <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a> <br>
+Theme <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=noopener data-version=2.5.0>Stack</a></b> designed by <a href=https://jimmycai.com target=_blank rel=noopener>Jimmy</a>
+</section>
+</footer>
+<div class=pswp tabindex=-1 role=dialog aria-hidden=true>
+<div class=pswp__bg></div>
+<div class=pswp__scroll-wrap>
+<div class=pswp__container>
+<div class=pswp__item></div>
+<div class=pswp__item></div>
+<div class=pswp__item></div>
+</div>
+<div class="pswp__ui pswp__ui--hidden">
+<div class=pswp__top-bar>
+<div class=pswp__counter></div>
+<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+<button class="pswp__button pswp__button--share" title=Share></button>
+<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+<div class=pswp__preloader>
+<div class=pswp__preloader__icn>
+<div class=pswp__preloader__cut>
+<div class=pswp__preloader__donut></div>
+</div>
+</div>
+</div>
+</div>
+<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+<div class=pswp__share-tooltip></div>
+</div>
+<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+</button>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+</button>
+<div class=pswp__caption>
+<div class=pswp__caption__center></div>
+</div>
+</div>
+</div>
+</div><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo=" crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU=" crossorigin=anonymous defer></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css integrity="sha256-c0uckgykQ9v5k+IqViZOZKc47Jn7KQil4/MP3ySA3F8=" crossorigin=anonymous><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE=" crossorigin=anonymous>
+</main>
+<aside class="sidebar right-sidebar sticky">
+<section class="widget archives">
+<div class=widget-icon><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><line x1="5" y1="9" x2="19" y2="9"/><line x1="5" y1="15" x2="19" y2="15"/><line x1="11" y1="4" x2="7" y2="20"/><line x1="17" y1="4" x2="13" y2="20"/></svg>
+</div>
+<h2 class="widget-title section-title">Table of contents</h2>
+<div class=widget--toc>
+<nav id=TableOfContents>
+<ol>
+<li><a href=#giới-thiệu>Giới thiệu</a></li>
+<li><a href=#cần-chuẩn-bị>Cần chuẩn bị</a></li>
+<li><a href=#cài-đặt-môi-trường>Cài đặt môi trường</a>
+<ol>
+<li><a href=#cài-đặt-máy-ảo>Cài đặt máy ảo</a></li>
+<li><a href=#cấu-hình-cho-máy-ảo>Cấu hình cho máy ảo</a></li>
+<li><a href=#cài-đặt-webserver>Cài đặt Webserver</a></li>
+<li><a href=#cài-đặt-ngôn-ngữ-lập-trình>Cài đặt ngôn ngữ lập trình</a></li>
+<li><a href=#cài-đặt-database>Cài đặt Database</a></li>
+</ol>
+</li>
+<li><a href=#cài-đặt-wordpress>Cài đặt WordPress</a></li>
+<li><a href=#cấu-hình-ra-bên-ngoài-sử-dụng-ngrok>Cấu hình ra bên ngoài sử dụng ngrok</a></li>
+<li><a href=#một-số-lỗi-thường-gặp-và-chú-ý>Một số lỗi thường gặp và chú ý</a></li>
+<li><a href=#tham-khảo>Tham khảo</a></li>
+</ol>
+</nav>
+</div>
+</section>
+</aside>
+</div>
+<script src=https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin=anonymous defer></script><script type=text/javascript src=/ts/main.js defer></script>
+<script>(function(){const a=document.createElement('link');a.href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",a.type="text/css",a.rel="stylesheet",document.head.appendChild(a)})()</script>
+</body>
+</html>

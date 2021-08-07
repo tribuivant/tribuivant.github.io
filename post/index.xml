@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Viết log bằng Git</title><link>https://tribuivant.github.io/post/</link><description>Recent content in Posts on Viết log bằng Git</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 04 Aug 2021 14:24:59 +0700</lastBuildDate><atom:link href="https://tribuivant.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Migration to Cloud</title><link>https://tribuivant.github.io/p/migration-to-cloud/</link><pubDate>Wed, 04 Aug 2021 14:24:59 +0700</pubDate><guid>https://tribuivant.github.io/p/migration-to-cloud/</guid><description>Google Cloud Platform Choosing your path
+Read the documents in the first.
+Amazon Web Service Microsoft Azure Alibaba Cloud</description></item><item><title>New Update</title><link>https://tribuivant.github.io/p/new-update/</link><pubDate>Wed, 04 Aug 2021 13:51:46 +0700</pubDate><guid>https://tribuivant.github.io/p/new-update/</guid><description>System Administrator Operating System Windows Awesome Windows Unix/Linux CentOS Documents Ubuntu Documents Blog RHEL Blog MacOS Awesome MacOS Cloud computing Cloud providers Big providers
+Google Cloud Platform Amazon Web Service Microsoft Azure Alibaba Cloud Middle providers
+Vultr Digital Ocean On-premises The key: Virtualization
+VMware Virtual Box Reference &amp;hellip;updating&amp;hellip;</description></item><item><title>Learning English</title><link>https://tribuivant.github.io/p/learning-english/</link><pubDate>Wed, 04 Aug 2021 09:09:33 +0700</pubDate><guid>https://tribuivant.github.io/p/learning-english/</guid><description>Learning Path Planing Vocabulary Sentences / Paragraphs Links / Connect sentences Deploy Nouns / Pronouns Articles Adjectives / Adverbs Preposition / Conjunctions Verbs Verb tenses Modal verbs Reported speech Relative clause Resources Dictionaries
+Cambridge Dictionary Oxford Dictionary Translate
+Google Translate English basically Attention Listening
+Everyday Speaking
+Practicing reflexes with English (language) Don&amp;rsquo;t be shy Reading</description></item><item><title>Serverless Cloud Computing</title><link>https://tribuivant.github.io/p/serverless-cloud-computing/</link><pubDate>Tue, 03 Aug 2021 16:46:32 +0700</pubDate><guid>https://tribuivant.github.io/p/serverless-cloud-computing/</guid><description>Cài đặt môi trường Dưới máy tính (Local)
+Cài đặt Git yum install git git clone &amp;lt;project&amp;gt; Cài đặt Funcarft Tải Funcraft mới nhất ở đây
+curl -o fun-linux.zip http://funcraft-release.oss-accelerate.aliyuncs.com/fun/fun-v3.6.20-linux.zip sudo yum install unzip sudo unzip fun-linux.zip sudo mv fun-v3.6.20-linux /usr/local/bin/fun fun --version Cấu hình Funcraft
+fun config Cài đặt Docker curl -sSL https://get.docker.com | sudo -E sh sudo usermod -aG docker $(whoami) # if you have not permission sudo su - touch /etc/sudoers.</description></item><item><title>Linux System Admin</title><link>https://tribuivant.github.io/p/linux-system-admin/</link><pubDate>Mon, 02 Aug 2021 20:40:48 +0700</pubDate><guid>https://tribuivant.github.io/p/linux-system-admin/</guid><description>Kiểm tra thông tin phần cứng Kiểm tra RAM
+free -h Kiểm tra CPU
+lscpu Kiểm tra thông tin ổ đĩa
+lsblk df -hT Kiểm tra thông tin phần mềm Kiểm tra các dịch vụ đang chạy
+systemctl Kiểm tra kết nối Dùng lệnh curl
+curl curl -Iv https://google.com Dùng lệnh wget
+wget Dùng lệnh netstat
+netstat -tlpn Dùng lệnh telnet
+telnet 127.0.0.0 80 Dùng lệnh ping
+ping google.com ping 8.</description></item><item><title>Docker Python Django</title><link>https://tribuivant.github.io/p/docker-python-django/</link><pubDate>Mon, 02 Aug 2021 10:42:35 +0700</pubDate><guid>https://tribuivant.github.io/p/docker-python-django/</guid><description>Cấu hình Ubuntu Server ssh e.bui@13.76.175.68 sudo apt-get update Cài đặt môi trường Cài đặt Docker Cài đặt Docker trên Ubuntu
+curl -sSL https://get.docker.com | sudo -E sh sudo systemctl enable --now docker.service docker.socket sudo usermod -aG docker ebui sudo reboot Kiểm tra Docker
+docker version Cài đặt Docker Compose sudo curl -L &amp;quot;https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)&amp;quot; -o /usr/local/bin/docker-compose sudo chmod +x /usr/local/bin/docker-compose Kiểm tra docker-compose
+docker-compose version Thiếp lập components cho project Tạo thư mục chứa project</description></item><item><title>Công cụ cần có của IT</title><link>https://tribuivant.github.io/p/c%C3%B4ng-c%E1%BB%A5-c%E1%BA%A7n-c%C3%B3-c%E1%BB%A7a-it/</link><pubDate>Mon, 02 Aug 2021 07:49:46 +0700</pubDate><guid>https://tribuivant.github.io/p/c%C3%B4ng-c%E1%BB%A5-c%E1%BA%A7n-c%C3%B3-c%E1%BB%A7a-it/</guid><description>Trình duyệt Chắc chắn, trình duyệt là một công cụ (hay ứng dụng) không thể thiếu trên mỗi nền tảng máy tính hay điện thoại. Sau đây là một số trình duyệt mà mình dùng.
+Microsoft Edge Google Chrome Mozilla Firefox Opera Cốc cốc Brave Công cụ soạn thảo Công cụ soạn thảo, hay trình soạn thảo giúp chúng ta chỉnh sửa File. Sau đây, mình xin giới thiệu một số công cụ mình hay dùng.</description></item><item><title>Github SSH Key</title><link>https://tribuivant.github.io/p/github-ssh-key/</link><pubDate>Sun, 01 Aug 2021 21:49:19 +0700</pubDate><guid>https://tribuivant.github.io/p/github-ssh-key/</guid><description>Tạo SSH key mkdir sshforgithub ssh-keygen -t rsa -f id_rsa ls -la sshforgithub Thêm SSH key vào trong Github Truy cập https://github.com/settings/keys
+Thêm public key vào trong Github
+Nhập mật khẩu của Github để xác thực.
+Thiết lập SSH trên máy tính Di chuyển key vào trong thư mục SSH, cụ thể là .ssh
+mv id_rsa ~/.ssh Thêm dòng sau vào ~/.ssh/config
+# My Github Host github.</description></item><item><title>Triển khai WordPress trên CentOS 7.6</title><link>https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/</link><pubDate>Sun, 01 Aug 2021 16:19:52 +0700</pubDate><guid>https://tribuivant.github.io/p/tri%E1%BB%83n-khai-wordpress-tr%C3%AAn-centos-7.6/</guid><description>Giới thiệu Cần chuẩn bị Máy ảo (trong bài này mình sử dụng VMware 16) File ISO CentOS 7.6 Cài đặt môi trường Cài đặt máy ảo
+Chọn DATE &amp;amp; TIME.</description></item><item><title>Cài đặt Hugo trên Netlify</title><link>https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/</link><pubDate>Sun, 01 Aug 2021 12:29:30 +0700</pubDate><guid>https://tribuivant.github.io/p/c%C3%A0i-%C4%91%E1%BA%B7t-hugo-tr%C3%AAn-netlify/</guid><description>Giới thiệu Hugo là gì? Hugo (framework) là một framework được xây dựng dựa trên Golang. Trang chủ https://gohugo.io
+Netlify Netlify là một nền tảng Cloud computing (Điện toán đám mây) dùng để lưu trữ (hosting) và chạy Serverless back-end cho ứng dụng Web và cho các website tĩnh. Trang chủ https://www.netlify.com
+Cài đặt Đây là trang chủ hướng dẫn cài đặt của Hugo, khá chi tiết (https://gohugo.io/getting-started/installing).
+Hugo có 2 loại:</description></item></channel></rss>
