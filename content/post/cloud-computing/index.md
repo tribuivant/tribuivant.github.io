@@ -1,7 +1,7 @@
 ---
 title: "Cloud Computing"
 date: 2021-08-03T07:45:09+07:00
-draft: true
+draft: false
 tags:
     - Cloud computing
     - Migration

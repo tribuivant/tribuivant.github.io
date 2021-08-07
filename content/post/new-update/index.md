@@ -7,6 +7,7 @@ tags:
     -  Blog
 categories:
     - Learn
+image: update.jpg
 ---
 
 ## System Administrator
